@@ -1,4 +1,4 @@
-$(document).ready(function () {
+/*$(document).ready(function () {
     $(".nav-toggler").each(function (_, navToggler) {
         var target = $(navToggler).data("target");
         $(navToggler).on("click", function () {
@@ -7,7 +7,7 @@ $(document).ready(function () {
             });
         });
     });
-});
+});*/
 
 function openFunction() {
     document.getElementById("topMenu").style.display = "flex";
