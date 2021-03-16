@@ -1,0 +1,11 @@
+@media (min-width: 1024px) {
+    .top-navbar{
+        display:contents; !important;
+    }
+    .open-btn{
+        display:none ; !important;
+    }
+    .bottom-navbar{
+        display:contents; !important;
+    }
+}
