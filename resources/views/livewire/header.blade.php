@@ -1,7 +1,7 @@
-<header class="bg-white  shadow-2xl  container mx-auto z-10 md:pr-4 mb-4">
+<header class="bg-white shadow-2xl container mx-auto z-10 md:pr-4 mb-4">
 
     {{--        top menu--}}
-    <nav class="flex items-center flex-wrap bg-green-300 ">
+    <nav class="flex  items-center flex-wrap bg-green-300 ">
 
 {{--        logo--}}
         <a href="#" class="px-4 py-4 lg:px-0 lg:py-0">
@@ -18,7 +18,7 @@
 
 {{--        top menu--}}
         <div id="topMenu"
-             class="hidden top-navbar  w-full lg:inline-flex lg:flex-grow lg:w-auto xl:contents items-center justify-between flex flex-col">
+             class="hidden top-navbar  w-full lg:flex lg:flex-row lg:flex-grow lg:w-auto xl:contents items-center justify-between flex flex-col">
             <div class="mb-4 lg:mb-0">
                 <a href="#"
                    class=" fa fa-send-o fa-2x pl-4 px-4 py-1 hover:bg-gray-600 rounded hover:text-white"></a>
