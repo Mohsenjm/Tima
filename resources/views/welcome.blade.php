@@ -12,8 +12,6 @@
     <link href="{{asset('/css/app.css')}}" rel="stylesheet">
     <link href="{{asset('/css/mobile.css')}}" rel="stylesheet">
 
-{{--    <link href="{{asset('/font-awesome/css/font-awesome.css')}}">--}}
-
 <!-- Styles -->
     <style>
         /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -49,8 +47,8 @@
     @livewireScripts
     <script src="{{asset('/js/jquery.min.js')}}"></script>
     <script src="{{asset('/js/openMenu.js')}}"></script>
-
     <script src="{{asset('/js/slick.js')}}"></script>
+    <script src="{{asset('/js/carousel.js')}}"></script>
 
 </body>
 </html>
