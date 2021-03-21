@@ -1,14 +1,14 @@
-<div class="container mx-auto mt-4  bg-blue-500 flex flex-col mb-4">
+<div class="container mx-auto mt-4 flex flex-col mb-4">
 
     <!-- top slide -->
 
     <div id="slideshow" class="container mx-auto flex flex-col lg:flex lg:flex-row mb-5 bg-white w-full">
         <!-- right-box -->
-        <div class="bg-white inline-flex flex-col lg:flex lg:flex-row rounded shadow-2xl">
+        <div class="bg-white inline-flex flex-col mb-4 lg:flex lg:flex-row lg:mb-0 rounded-md shadow-lg">
             <!-- right text -->
             <div class="mr-4 ml-8 my-auto  flex flex-col justify-center">
                 <h2 class="font-bold flex justify-center mb-4 mt-4">محصولات&nbsp;ارگانیک</h2>
-                <div class="mb-4 flex flex-col items-center">
+                <div class="mb-4 flex flex-col items-center lg:items-baseline">
                     <p class="text-gray-400 ">تولید&nbsp;محصولات&nbsp;کاملا&nbsp;ارگانیک&nbsp;</p>
                     <p class="text-gray-400">در&nbsp;مزارع&nbsp;تیما&nbsp;زعفران</p>
                 </div>
@@ -21,7 +21,7 @@
             <!-- end right text -->
 
             <!-- left image -->
-            <div class="bg-green-400 w-64 h-80 lg:my-8 lg:mx-8 rounded-3xl m-auto">
+            <div class="bg-green-100 w-64 h-80 lg:my-auto lg:mx-8 rounded-3xl m-auto">
                 <img class="w-56 h-56 mx-auto my-12" src="{{asset('/img/01.jpg')}}" alt="img">
             </div>
             <!-- end left image -->
@@ -31,15 +31,15 @@
 
 
         <!-- left-box -->
-        <div class="bg-green-400 flex flex-col mt-4 mr-4 w-full">
+        <div class="flex flex-col mr-4 w-full">
             <!-- top-image -->
-            <div class="bg-black mb-4 h-1/2 m-auto lg:m-0">
-                <img class="img-fit w-full object-cover rounded-2xl" src="{{asset('/img/01.jpg')}}" alt="img">
+            <div class="mb-4 h-1/2 m-auto lg:m-0 lg:mb-4">
+                <img class="img-fit w-full rounded-lg" src="{{asset('/img/01.jpg')}}" alt="img">
             </div>
 
             <!-- bottom-image -->
-            <div class="bg-yellow-300 h-1/2 m-auto lg:m-0">
-                <img class="img-fit w-full object-cover rounded-2xl" src="{{asset('/img/01.jpg')}}" alt="img">
+            <div class="h-1/2 m-auto lg:m-0">
+                <img class="img-fit w-full rounded-lg" src="{{asset('/img/01.jpg')}}" alt="img">
             </div>
         </div>
 

@@ -27,11 +27,11 @@
     </style>
     @livewireStyles
 </head>
-<body class="antialiased ">
+<body class="antialiased bg-white ">
 {{--<div class="wrapper">--}}
 <section id="header">@livewire('header')</section>
 
-<section id="content">
+<section id="content" class="bg-white container mx-auto">
     @livewire('slider')
 </section>
 
