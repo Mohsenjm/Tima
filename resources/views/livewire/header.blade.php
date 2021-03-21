@@ -31,7 +31,7 @@
 {{--            search form--}}
             <div class=" mb-4 lg:mb-0">
                 <form action="#" class="relative w-max">
-                    <input type="text" name="txt-search" class="w-96 h-10 pr-4  border py-2 px-3 bg-gray-400 rounded "
+                    <input type="text" name="txt-search" class="lg:w-96 w-80 h-10 pr-4  border py-2 px-3 bg-gray-400 rounded "
                            placeholder="جستجو در تیما زعفران ...">
                     <i class="fa fa-search text-gray-500 absolute top-3 left-2"></i>
                 </form>
@@ -100,3 +100,13 @@
 
 
 </header>
+<script>
+    export default {
+        data() {
+            return {
+                isOpen:false,
+            }
+        },
+    }
+
+</script>

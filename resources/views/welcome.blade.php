@@ -11,6 +11,7 @@
 
     <link href="{{asset('/css/app.css')}}" rel="stylesheet">
     <link href="{{asset('/css/mobile.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/style.css')}}" rel="stylesheet">
 
 <!-- Styles -->
     <style>
@@ -19,9 +20,6 @@
     </style>
 
     <style>
-        .wrapper {
-            position: relative;
-        }
 
         body {
             font-family: 'Nunito', sans-serif;
@@ -39,16 +37,13 @@
 
 
 <section id="footer">@livewire('footer')</section>
-</div>
-<div class="container mx-auto my-auto flex flex-col  justify-between">
+
 
 
     {{--</div>--}}
     @livewireScripts
     <script src="{{asset('/js/jquery.min.js')}}"></script>
     <script src="{{asset('/js/openMenu.js')}}"></script>
-    <script src="{{asset('/js/slick.js')}}"></script>
-    <script src="{{asset('/js/carousel.js')}}"></script>
 
 </body>
 </html>
