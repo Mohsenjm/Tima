@@ -10,6 +10,7 @@
         });
     });
 });*/
+/*
 
 function openFunction() {
     document.getElementById("topMenu").style.display = "flex";
@@ -26,3 +27,4 @@ function closeFunction() {
     document.getElementById("close").style.display = "none";
 
 }
+*/

@@ -7,9 +7,9 @@
         <a href="#" class="px-4 py-4 lg:px-0 lg:py-0">
             <img class="w-16 h-16" src="{{asset('/img/icon3.png')}}" alt="logo">
         </a>
-
+{{--        onclick="openFunction()"--}}
         {{--        button menu--}}
-        <button id="open" onclick="openFunction()"
+        <button id="open" @click="isOpen = !isOpen"
                 class="open-btn w-9 h-9 hover:bg-gray-600 rounded lg:hidden xl:hidden mr-auto">
             <i class="fa fa-navicon fa-2x"></i>
         </button>
@@ -19,7 +19,7 @@
         </button>
 
         {{--        top menu--}}
-        <div id="topMenu"
+        <div id="topMenu" :class="isOpen ? 'block' : 'hidden' "
              class="hidden w-full lg:flex lg:flex-row lg:flex-grow lg:w-auto lg:justify-between items-center justify-between flex flex-col">
             <div class="mb-4 lg:mb-0">
                 <a href="#"
@@ -34,7 +34,7 @@
             <div class=" mb-4 lg:mb-0">
                 <form action="#" class="relative w-max">
                     <input type="text" name="txt-search"
-                           class="lg:w-96 w-80 h-10 pr-4  border py-2 px-3 bg-gray-400 rounded "
+                           class="lg:w-96 w-80 h-10 pr-4  border py-2 px-3 bg-gray-300 rounded "
                            placeholder="جستجو در تیما زعفران ...">
                     <i class="fa fa-search text-gray-500 absolute top-3 left-2"></i>
                 </form>
@@ -110,3 +110,12 @@
 
 </header>
 
+<script>
+    export default {
+        data() {
+            return {
+                isOpen: false,
+            }
+        }
+    }
+</script>

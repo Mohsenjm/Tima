@@ -32,7 +32,9 @@
 <section id="header">@livewire('header')</section>
 
 <section id="content" class="bg-white container mx-auto">
-    @livewire('slider')
+{{--    @livewire('slider')--}}
+@include('breadcrumb')
+
 </section>
 
 
