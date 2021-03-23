@@ -21,6 +21,7 @@
     "vue-loader": "^16.1.0"
   },
   "dependencies": {
+    "alpinejs": "^2.8.1",
     "vue": "^3.0.7"
   },
   "name": "TimaSaffron",

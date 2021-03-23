@@ -1,7 +1,7 @@
 <header class="bg-white shadow-lg container mx-auto z-10 md:pr-4 mb-4">
 
     {{--        top menu--}}
-    <nav class="flex  items-center flex-wrap">
+    <nav class="flex  items-center flex-wrap " x-data="{isOpen:false}">
 
         {{--        logo--}}
         <a href="#" class="px-4 py-4 lg:px-0 lg:py-0">
@@ -9,18 +9,18 @@
         </a>
 {{--        onclick="openFunction()"--}}
         {{--        button menu--}}
-        <button id="open" @click="isOpen = !isOpen"
+        <button @click="isOpen = !isOpen"
                 class="open-btn w-9 h-9 hover:bg-gray-600 rounded lg:hidden xl:hidden mr-auto">
             <i class="fa fa-navicon fa-2x"></i>
         </button>
-        <button type="button" id="close" onclick="closeFunction()"
+<!--        <button type="button" id="close"
                 class="hidden w-9 h-9 hover:bg-gray-600 rounded lg:hidden mr-auto">
             <i class="fa fa-close fa-2x"></i>
-        </button>
+        </button>-->
 
         {{--        top menu--}}
-        <div id="topMenu" :class="isOpen ? 'block' : 'hidden' "
-             class="hidden w-full lg:flex lg:flex-row lg:flex-grow lg:w-auto lg:justify-between items-center justify-between flex flex-col">
+        <div id="topMenu" :class="isOpen ? 'show' : 'hidden' "
+             class="w-full lg:flex lg:flex-row lg:flex-grow lg:w-auto lg:justify-between items-center justify-between flex flex-col">
             <div class="mb-4 lg:mb-0">
                 <a href="#"
                    class=" fa fa-send-o fa-2x pl-4 px-4 py-1 hover:bg-gray-600 rounded hover:text-white"></a>
@@ -54,14 +54,10 @@
                 </ul>
             </div>
         </div>
-    </nav>
 
-
-    {{--        bottom menu--}}
-
-    <nav class="flex items-center flex-wrap">
-        <div id="bottomMenu"
-             class="hidden bottom-navbar  w-full lg:flex lg:flex-row lg:flex-grow lg:w-auto items-center justify-between flex flex-col">
+        <!-- bottom menu -->
+        <div id="bottomMenu" :class="isOpen ? 'show' : 'hidden' "
+             class="bottom-navbar  w-full lg:flex lg:flex-row lg:flex-grow lg:w-auto items-center justify-between flex flex-col">
             {{--            right menu--}}
 
             <div class="flex w-max mb-4 lg:inline-flex lg:mb-0 xl:mb-0 ">
@@ -105,17 +101,8 @@
             </div>
 
         </div>
+
     </nav>
 
 
 </header>
-
-<script>
-    export default {
-        data() {
-            return {
-                isOpen: false,
-            }
-        }
-    }
-</script>
