@@ -76,282 +76,110 @@
         </div>
 
         <!--          carousel slider -->
-        <div class="bg-yellow-300 w-full overflow-hidden inline-flex ">
-            {{--
-            <!--  card -->
-            <div class="bg-white mx-4 post-wrapper inline-block shadow-lg rounded-2xl">
+        <div class="bg-yellow-300 w-full overflow-hidden inline-flex">
+            <div x-data="{swiper: null}"
+                 x-init="swiper = new Swiper($refs.container, {
+      loop: true,
+      autoplay:true,
+      slidesPerView: 1,
+      spaceBetween: 0,
 
-                <!-- product image -->
-                <div class=" px-4 mt-1 mb-4">
-                    <img class="object-cover rounded w-20" src="{{asset('/img/01.jpg')}}" alt="carouselImage">
+      breakpoints: {
+        640: {
+          slidesPerView: 1,
+          spaceBetween: 0,
+        },
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 0,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 0,
+        },
+      },
+    })"
+                 class="relative w-10/12 mx-auto flex flex-row"
+            >
+                <div class="absolute inset-y-0 left-0 z-10 flex items-center">
+                    <button @click="swiper.slidePrev()"
+                            class="bg-white -ml-2 lg:-ml-4 flex justify-center items-center w-10 h-10 rounded-full shadow focus:outline-none">
+                        <svg viewBox="0 0 20 20" fill="currentColor" class="chevron-left w-6 h-6">
+                            <path fill-rule="evenodd"
+                                  d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
+                                  clip-rule="evenodd"></path>
+                        </svg>
+                    </button>
                 </div>
 
-                <!-- product name -->
-                <div class="flex justify-center mb-4">
-                    <span class="font-bold">زرشک ارگانیک</span>
-                </div>
+                <div class="swiper-container" x-ref="container">
+                    <div class="flex swiper-wrapper">
+                        <div class="flex swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide p-4">
+                                <div class="flex flex-col rounded shadow overflow-hidden">
+                                    <div class="flex-shrink-0">
+                                        <img class="h-48 w-full object-cover"
+                                             src="{{asset('/img/01.jpg')}}"
+                                             alt="carousel">
+                                    </div>
+                                </div>
+                            </div>
 
-                <!--   price offer -->
-                <div class="bg-green-400 flex flex-row-reverse items-center">
+                            <div class="swiper-slide p-4">
+                                <div class="flex flex-col rounded shadow overflow-hidden">
+                                    <div class="flex-shrink-0">
+                                        <img class="h-48 w-full object-cover"
+                                             src="{{asset('/img/02.jpg')}}"
+                                             alt="carousel">
+                                    </div>
+                                </div>
+                            </div>
 
-                    <!--  offer text -->
-                    <div class="bg-green-600 w-max mr-8 ml-4  rounded">
-                        <span><i class="fa fa-percent fa-lg"></i>20</span>
-                    </div>
-                    <div class="bg-white">
-                        <span class="line-through text-gray-400">54000</span>
-                    </div>
-                </div>
+                            <div class="swiper-slide p-4">
+                                <div class="flex flex-col rounded shadow overflow-hidden">
+                                    <div class="flex-shrink-0">
+                                        <img class="h-48 w-full object-cover"
+                                             src="{{asset('/img/03.jpg')}}"
+                                             alt="carousel">
+                                    </div>
+                                </div>
+                            </div>
 
-                <!--  product price -->
-                <div class="flex flex-row-reverse mt-4 bg-red-300">
-
-                    <!--  price letter -->
-                    <div class="bg-gray-400 mr-8 ml-6">
-                        <span class="font-bold">تومان</span>
-                    </div>
-
-
-                    <!--  price number -->
-                    <div class="bg-blue-500">
-                        <span>50000</span>
-                    </div>
-                </div>
-            </div>
-            <!-- end card -->
-            <!--  card -->
-            <div class="bg-white post-wrapper inline-block shadow-lg rounded-2xl">
-
-                <!-- product image -->
-                <div class=" px-4 mt-1 mb-4">
-                    <img class="object-cover rounded w-20" src="{{asset('/img/01.jpg')}}" alt="carouselImage">
-                </div>
-
-                <!-- product name -->
-                <div class="flex justify-center mb-4">
-                    <span class="font-bold">زرشک ارگانیک</span>
-                </div>
-
-                <!--   price offer -->
-                <div class="bg-green-400 flex flex-row-reverse items-center">
-
-                    <!--  offer text -->
-                    <div class="bg-green-600 w-max mr-8 ml-4  rounded">
-                        <span><i class="fa fa-percent fa-lg"></i>20</span>
-                    </div>
-                    <div class="bg-white">
-                        <span class="line-through text-gray-400">54000</span>
-                    </div>
-                </div>
-
-                <!--  product price -->
-                <div class="flex flex-row-reverse mt-4 bg-red-300">
-
-                    <!--  price letter -->
-                    <div class="bg-gray-400 mr-8 ml-6">
-                        <span class="font-bold">تومان</span>
-                    </div>
-
-
-                    <!--  price number -->
-                    <div class="bg-blue-500">
-                        <span>50000</span>
-                    </div>
-                </div>
-            </div>
-            <!-- end card -->
-            <!--  card -->
-            <div class="bg-white post-wrapper inline-block shadow-lg rounded-2xl">
-
-                <!-- product image -->
-                <div class=" px-4 mt-1 mb-4">
-                    <img class="object-cover rounded w-20" src="{{asset('/img/01.jpg')}}" alt="carouselImage">
-                </div>
-
-                <!-- product name -->
-                <div class="flex justify-center mb-4">
-                    <span class="font-bold">زرشک ارگانیک</span>
-                </div>
-
-                <!--   price offer -->
-                <div class="bg-green-400 flex flex-row-reverse items-center">
-
-                    <!--  offer text -->
-                    <div class="bg-green-600 w-max mr-8 ml-4  rounded">
-                        <span><i class="fa fa-percent fa-lg"></i>20</span>
-                    </div>
-                    <div class="bg-white">
-                        <span class="line-through text-gray-400">54000</span>
-                    </div>
-                </div>
-
-                <!--  product price -->
-                <div class="flex flex-row-reverse mt-4 bg-red-300">
-
-                    <!--  price letter -->
-                    <div class="bg-gray-400 mr-8 ml-6">
-                        <span class="font-bold">تومان</span>
-                    </div>
-
-
-                    <!--  price number -->
-                    <div class="bg-blue-500">
-                        <span>50000</span>
-                    </div>
-                </div>
-            </div>
-            <!-- end card -->
-            <!--  card -->
-            <div class="bg-white post-wrapper inline-block shadow-lg rounded-2xl">
-
-                <!-- product image -->
-                <div class=" px-4 mt-1 mb-4">
-                    <img class="object-cover rounded w-20" src="{{asset('/img/01.jpg')}}" alt="carouselImage">
-                </div>
-
-                <!-- product name -->
-                <div class="flex justify-center mb-4">
-                    <span class="font-bold">زرشک ارگانیک</span>
-                </div>
-
-                <!--   price offer -->
-                <div class="bg-green-400 flex flex-row-reverse items-center">
-
-                    <!--  offer text -->
-                    <div class="bg-green-600 w-max mr-8 ml-4  rounded">
-                        <span><i class="fa fa-percent fa-lg"></i>20</span>
-                    </div>
-                    <div class="bg-white">
-                        <span class="line-through text-gray-400">54000</span>
-                    </div>
-                </div>
-
-                <!--  product price -->
-                <div class="flex flex-row-reverse mt-4 bg-red-300">
-
-                    <!--  price letter -->
-                    <div class="bg-gray-400 mr-8 ml-6">
-                        <span class="font-bold">تومان</span>
-                    </div>
-
-
-                    <!--  price number -->
-                    <div class="bg-blue-500">
-                        <span>50000</span>
-                    </div>
-                </div>
-            </div>
-            <!-- end card -->
-
-            <!--  card -->
-            <div class="bg-white post-wrapper inline-block shadow-lg rounded-2xl">
-
-                <!-- product image -->
-                <div class=" px-4 mt-1 mb-4">
-                    <img class="object-cover rounded w-20" src="{{asset('/img/01.jpg')}}" alt="carouselImage">
-                </div>
-
-                <!-- product name -->
-                <div class="flex justify-center mb-4">
-                    <span class="font-bold">زرشک ارگانیک</span>
-                </div>
-
-                <!--   price offer -->
-                <div class="bg-green-400 flex flex-row-reverse items-center">
-
-                    <!--  offer text -->
-                    <div class="bg-green-600 w-max mr-8 ml-4  rounded">
-                        <span><i class="fa fa-percent fa-lg"></i>20</span>
-                    </div>
-                    <div class="bg-white">
-                        <span class="line-through text-gray-400">54000</span>
-                    </div>
-                </div>
-
-                <!--  product price -->
-                <div class="flex flex-row-reverse mt-4 bg-red-300">
-
-                    <!--  price letter -->
-                    <div class="bg-gray-400 mr-8 ml-6">
-                        <span class="font-bold">تومان</span>
-                    </div>
-
-
-                    <!--  price number -->
-                    <div class="bg-blue-500">
-                        <span>50000</span>
-                    </div>
-                </div>
-            </div>
-            <!-- end card -->
-
-        </div>--}}
-            {{--
-            <div class="inline-flex slick-list dra">
-                <div class="sli">محسن جعفری مقدم </div>
-                <div>محسن جعفری مقدم </div>
-                <div>محسن جعفری مقدم </div>
-
-            </div>
---}}
-
-            <!-- Single Card -->
-              <div class="slick-initialized slick-slider inline-flex post-wrapper">
-                  <div class="slick-list">
-                      <div class="slick-track">
-                          <div class="slick-slide slick-current slick-active">
-                              <div class=" px-4 mt-1 mb-4 w-64 h-64">
-                                  <img class="object-cover w-64 h-64 rounded w-20" src="{{asset('/img/01.jpg')}}" alt="carouselImage">
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-                <!-- Single Card -->
-                <div class="slick-initialized slick-slider inline-flex post-wrapper">
-                    <div class="slick-list">
-                        <div class="slick-track">
-                            <div class="slick-slide slick-current">
-                                <div class=" px-4 mt-1 mb-4 w-64 h-64">
-                                    <img class="object-cover w-64 h-64 rounded w-20" src="{{asset('/img/01.jpg')}}" alt="carouselImage">
+                            <div class="swiper-slide p-4">
+                                <div class="flex flex-col rounded shadow overflow-hidden">
+                                    <div class="flex-shrink-0">
+                                        <img class="h-48 w-full object-cover"
+                                             src="{{asset('/img/04.jpg')}}"
+                                             alt="carousel">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide p-4">
+                                <div class="flex flex-col rounded shadow overflow-hidden">
+                                    <div class="flex-shrink-0">
+                                        <img class="h-48 w-full object-cover"
+                                             src="{{asset('/img/04.jpg')}}"
+                                             alt="carousel">
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div><!-- Single Card -->
-                <div class="slick-initialized slick-slider inline-flex post-wrapper">
-                    <div class="slick-list">
-                        <div class="slick-track">
-                            <div class="slick-slide slick-current">
-                                <div class=" px-4 mt-1 mb-4 w-64 h-64">
-                                    <img class="object-cover w-64 h-64 rounded w-20" src="{{asset('/img/01.jpg')}}" alt="carouselImage">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- Single Card -->
-                <div class="slick-initialized slick-slider inline-flex post-wrapper">
-                    <div class="slick-list">
-                        <div class="slick-track">
-                            <div class="slick-slide">
-                                <div class=" px-4 mt-1 mb-4 w-64 h-64">
-                                    <img class="object-cover w-64 h-64 rounded w-20" src="{{asset('/img/01.jpg')}}" alt="carouselImage">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- Single Card -->
-                <div class="slick-initialized slick-slider inline-flex post-wrapper">
-                    <div class="slick-list">
-                        <div class="slick-track">
-                            <div class="slick-slide slick-current">
-                                <div class=" px-4 mt-1 mb-4 w-64 h-64">
-                                    <img class="object-cover w-64 h-64 rounded w-20" src="{{asset('/img/01.jpg')}}" alt="carouselImage">
-                                </div>
-                            </div>
-                        </div>
+
+                    <div class="absolute inset-y-0 right-0 z-10 flex items-center">
+                        <button @click="swiper.slideNext()"
+                                class="bg-white -mr-2 lg:-mr-4 flex justify-center items-center w-10 h-10 rounded-full shadow focus:outline-none">
+                            <svg viewBox="0 0 20 20" fill="currentColor" class="chevron-right w-6 h-6">
+                                <path fill-rule="evenodd"
+                                      d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                                      clip-rule="evenodd"></path>
+                            </svg>
+                        </button>
                     </div>
                 </div>
+
+            </div>
         </div>
-</div>
+    </div>
 </div>

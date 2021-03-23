@@ -12,7 +12,7 @@
     <link href="{{asset('/css/app.css')}}" rel="stylesheet">
     <link href="{{asset('/css/mobile.css')}}" rel="stylesheet">
     <link href="{{asset('/css/style.css')}}" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+
     <!-- Styles -->
     <style>
         /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -44,10 +44,13 @@
 
 {{--</div>--}}
 @livewireScripts
-{{--<script src="{{asset('/js/jquery.min.js')}}"></script>--}}
+<script src="{{asset('/js/jquery.min.js')}}"></script>
 {{--<script src="{{asset('/js/openMenu.js')}}"></script>--}}
 {{--<script src="{{asset('/js/app.js')}}"></script>--}}
-<script src="{{ asset('js/app.js') }}" defer></script>
-<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.1/dist/alpine.min.js" defer></script>
+<script src="{{ asset('/js/app.js') }}" defer></script>
+
+<script src="{{asset('/js/alpine.min.js')}}"></script>
+<script src="{{asset('/js/swiper.min.js')}}"></script>
+{{--<script src="{{asset('/js/carousel.js')}}"></script>--}}
 </body>
 </html>

@@ -5,3 +5,51 @@
 .img-fit{
     height: 12rem;
 }
+
+
+.flickity-viewport {
+    height: 500px !important;
+}
+
+
+.is-scroll-x {
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+
+/* iOS devices */
+@supports (-webkit-overflow-scrolling: touch) {
+    .is-scroll-x {
+        -webkit-overflow-scrolling: touch;
+    }
+}
+
+.container {
+    min-width: 0;
+}
+
+/* Alpine.js */
+[x-cloak] {
+    display: none !important;
+}
+
+[x-cloak] { display: none; }
+
+.progress {
+    animation:progress;
+    animation-iteration-count:1;
+    animation-fill-mode:forwards;
+    animation-timing-function:linear;
+}
+@keyframes progress {
+    0% {
+        width: 0%;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.5;
+        width: 100%;
+    }
+}
