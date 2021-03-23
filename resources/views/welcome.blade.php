@@ -12,6 +12,8 @@
     <link href="{{asset('/css/app.css')}}" rel="stylesheet">
     <link href="{{asset('/css/mobile.css')}}" rel="stylesheet">
     <link href="{{asset('/css/style.css')}}" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
 
     <!-- Styles -->
     <style>
@@ -51,6 +53,8 @@
 
 <script src="{{asset('/js/alpine.min.js')}}"></script>
 <script src="{{asset('/js/swiper.min.js')}}"></script>
-{{--<script src="{{asset('/js/carousel.js')}}"></script>--}}
+<script src="{{asset('/js/carousel.js')}}"></script>
+
+
 </body>
 </html>
