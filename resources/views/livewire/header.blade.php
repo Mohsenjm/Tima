@@ -1,40 +1,38 @@
-<header class="bg-white shadow-lg container mx-auto z-10 md:pr-4 mb-4">
+<header class="bg-white shadow-lg md:pr-4 mb-4">
 
     {{--        top menu--}}
-    <nav class="flex  items-center flex-wrap " x-data="{isOpen:false}">
+    <nav id="nav-header" class="container mx-auto flex  items-center flex-wrap " x-data="{isOpen:false}">
 
         {{--        logo--}}
         <a href="#" class="px-4 py-4 lg:px-0 lg:py-0">
             <img class="w-16 h-16" src="{{asset('/img/icon3.png')}}" alt="logo">
         </a>
-{{--        onclick="openFunction()"--}}
+
         {{--        button menu--}}
         <button @click="isOpen = !isOpen"
                 class="open-btn w-9 h-9 hover:bg-gray-600 rounded lg:hidden xl:hidden mr-auto">
             <i class="fa fa-navicon fa-2x"></i>
         </button>
-<!--        <button type="button" id="close"
-                class="hidden w-9 h-9 hover:bg-gray-600 rounded lg:hidden mr-auto">
-            <i class="fa fa-close fa-2x"></i>
-        </button>-->
 
         {{--        top menu--}}
         <div id="topMenu" :class="isOpen ? 'show' : 'hidden' "
              class="w-full lg:flex lg:flex-row lg:flex-grow lg:w-auto lg:justify-between items-center justify-between flex flex-col">
-            <div class="mb-4 lg:mb-0">
+
+            <!-- social icon -->
+            <div class="mb-4 lg:mb-0 lg:mr-12">
                 <a href="#"
-                   class=" fa fa-send-o fa-2x pl-4 px-4 py-1 hover:bg-gray-600 rounded hover:text-white"></a>
+                   class=" fa fa-instagram fa-2x pl-4 py-1 text-2xl text-gray-300 hover:bg-gray-600 rounded hover:text-white"></a>
                 <a href="#"
-                   class=" fa fa-instagram fa-2x pl-4 px-4 py-1 hover:bg-gray-600 rounded hover:text-white"></a>
+                   class=" fa fa-send-o fa-2x pl-4  py-1 text-2xl text-gray-300  hover:bg-gray-600 rounded hover:text-white"></a>
                 <a href="#"
-                   class=" fa fa-whatsapp fa-2x pl-4 px-4 py-1 hover:bg-gray-600 rounded hover:text-white"></a>
+                   class=" fa fa-whatsapp fa-2x pl-4 py-1 text-2xl text-gray-300 hover:bg-gray-600 rounded hover:text-white"></a>
             </div>
 
             {{--            search form--}}
             <div class=" mb-4 lg:mb-0">
                 <form action="#" class="relative w-max">
                     <input type="text" name="txt-search"
-                           class="lg:w-96 w-80 h-10 pr-4  border py-2 px-3 bg-gray-300 rounded "
+                           class="size h-10 pr-4 py-2 px-3 bg-gray-100 rounded "
                            placeholder="جستجو در تیما زعفران ...">
                     <i class="fa fa-search text-gray-500 absolute top-3 left-2"></i>
                 </form>
@@ -44,11 +42,11 @@
             <div class=" mb-4 lg:mb-0 lg:ml-9">
                 <ul class="flex pt-2">
                     <li class="px-4 ml-4 hover:bg-gray-600 rounded hover:text-white">
-                        <i class="fa fa-phone"></i>
+                        <i class="fa fa-phone text-gray-300"></i>
                         <a href="#">تماس&nbsp;با&nbsp;ما</a>
                     </li>
                     <li class="px-4 hover:bg-gray-600 rounded hover:text-white">
-                        <i class="fa fa-align-left"></i>
+                        <i class="fa fa-align-left text-gray-300"></i>
                         <a href="#">سوالات&nbsp;متداول</a>
                     </li>
                 </ul>
@@ -65,20 +63,20 @@
                     <li class="py-4 px-4 lg:px-0"><a href="#"
                                                      class="px-2 py-2  hover:bg-gray-600 rounded hover:text-white">صفحه&nbsp;اصلی</a>
                     </li>
-                    <li class="pr-6 px-4 py-4"><a href="#" class="px-2 py-2 hover:bg-gray-600 rounded hover:text-white">زعفران</a>
+                    <li class="pr-6 py-4"><a href="#" class="px-2 py-2 hover:bg-gray-600 rounded hover:text-white">زعفران</a>
                     </li>
-                    <li class="pr-6 px-4 py-4"><a href="#"
+                    <li class="pr-6 py-4"><a href="#"
                                                   class="px-2 py-2 hover:bg-gray-600 rounded hover:text-white">زرشک</a>
                     </li>
-                    <li class="pr-6 px-4 py-4"><a href="#"
+                    <li class="pr-6 py-4"><a href="#"
                                                   class="px-2 py-2  hover:bg-gray-600 rounded hover:text-white">زرشک</a>
                     </li>
-                    <li class="pr-6 px-4 py-4"><a href="#" class="px-2 py-2 hover:bg-gray-600 rounded hover:text-white">سایر&nbsp;محصولات</a>
+                    <li class="pr-6 py-4"><a href="#" class="px-2 py-2 hover:bg-gray-600 rounded hover:text-white">سایر&nbsp;محصولات</a>
                     </li>
-                    <li class="pr-6 px-4 py-4"><a href="#"
+                    <li class="pr-6 py-4"><a href="#"
                                                   class="px-2 py-2  hover:bg-gray-600 rounded hover:text-white">مجوزها&nbsp;و&nbsp;تقدیرنامه</a>
                     </li>
-                    <li class="pr-6 px-4 py-4"><a href="#" class="px-2 py-2 hover:bg-gray-600 rounded hover:text-white">درباره&nbsp;ما</a>
+                    <li class="pr-6 py-4"><a href="#" class="px-2 py-2 hover:bg-gray-600 rounded hover:text-white">درباره&nbsp;ما</a>
                     </li>
                 </ul>
             </div>
@@ -87,16 +85,16 @@
 
             <div class="flex ml-4">
                 {{--                       shopping cart --}}
-                <button class="ml-14">
+                <button class="ml-4">
                     <a href="#"
-                       class="fa fa-shopping-cart fa-2x px-2 py-2 hover:bg-gray-600 rounded hover:text-white"></a>
+                       class="fa fa-shopping-cart text-gray-400 fa-2x px-2 text-2xl hover:bg-gray-600 rounded hover:text-white"></a>
                 </button>
 
                 {{--            register form--}}
-                <button type="button" class="h-10 flex bg-blue-500 lg:mt-2 ml-4 hover:bg-gray-600 rounded ">
+                <button type="button" class="w-44 h-10 flex bg-blue-400 ml-6 hover:bg-gray-600 ">
                     <a href="#"
-                       class="fa fa-arrow-circle-left fa-2x w-9 pt-1 bg-blue-400 hover:bg-gray-600 hover:text-white "></a>
-                    <span class="mt-0 mx-4 pt-2 font-bold text-white">ورود / ثبت نام</span>
+                       class="fa fa-arrow-circle-left fa-2x w-12 pt-1 bg-blue-300 hover:bg-gray-600 hover:text-white "></a>
+                    <span class="mt-0 mx-auto pt-2 font-bold text-white">ورود / ثبت نام</span>
                 </button>
             </div>
 

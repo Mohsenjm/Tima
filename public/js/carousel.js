@@ -13,7 +13,7 @@ $(document).ready(function (){
         loop: true,
         slidesPerView: 3,
         spaceBetween: 20,
-        effect: 'coverflow',
+        // effect: 'coverflow',
         autoplay: {
             delay: 5000,
             disableOnInteraction: true,

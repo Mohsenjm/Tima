@@ -1,8 +1,8 @@
-<div class="container mx-auto mt-4 flex flex-col mb-4">
+<div class="flex flex-col mt-4 mb-4 bg-blue-700">
 
     <!-- top slide -->
 
-    <div id="slideshow" class="container mx-auto flex flex-col lg:flex lg:flex-row mb-5 bg-white w-full">
+    <div id="banner" class="container mx-auto flex flex-col lg:flex lg:flex-row mb-5 bg-white w-full">
         <!-- right-box -->
         <div class="bg-white inline-flex flex-col mb-4 lg:flex lg:flex-row lg:mb-0 rounded-md shadow-lg">
             <!-- right text -->
@@ -48,53 +48,56 @@
 
     <!-- carousel slide -->
 
-    <div class="w-full h-64 flex bg-red-600">
+    <div class="w-full h-auto flex flex-col bg-red-600">
 
-        <!--  right menu -->
+        <div id="slideshow" class="relative flex flex-col lg:flex lg:flex-row container mx-auto bg-yellow-400">
+            <!--  right menu -->
 
-        <div class="relative bg-green-400 ml-8 mr-12 w-48 my-4 ">
+            <div class="w-full my-2 lg:mr-6 flex flex-row lg:flex lg:flex-col  mx-auto bg-green-200 ">
 
-            <!--    text -->
+                <!--    text -->
 
-            <div class="flex flex-col font-bold items-center">
-                <span>پیشنهاد</span>
-                <span>شگفت</span>
-                <span>انگیز</span>
-            </div>
-
-            <!--   image -->
-
-            <div class="flex justify-center py-4">
-                <img src="{{asset('/img/icon3.png')}}" alt="img" class="w-16 h-16">
-            </div>
-
-            <!--   button -->
-
-            <div class=" right-1/2 flex justify-center">
-                <button type="button" class="border px-4 py-1 rounded">مشاهده&nbsp;همه</button>
-            </div>
-        </div>
-
-        <!--          carousel slider -->
-        <div class="swiper-container w-full overflow-hidden inline-flex">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <img src="{{asset('/img/01.jpg')}}">
+                <div class="flex flex-col font-bold items-center mr-auto lg:mx-auto pt-4">
+                    <span>پیشنهاد</span>
+                    <span>شگفت</span>
+                    <span>انگیز</span>
                 </div>
-                <div class="swiper-slide"><img src="{{asset('/img/02.jpg')}}"></div>
-                <div class="swiper-slide"><img src="{{asset('/img/03.jpg')}}"></div>
-                <div class="swiper-slide"><img src="{{asset('/img/04.jpg')}}"></div>
-                <div class="swiper-slide"><img src="{{asset('/img/05.jpg')}}"></div>
-                <div class="swiper-slide"><img src="{{asset('/img/06.jpg')}}"></div>
-            </div>
-            <!-- Add Arrows -->
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
 
-            <!-- pagination -->
-            <div class="swiper-pagination"></div>
+                <!--   image -->
+
+                <div class="flex justify-center mr-auto lg:mx-auto py-4">
+                    <img src="{{asset('/img/icon3.png')}}" alt="img" class="w-16 h-16">
+                </div>
+
+                <!--   button -->
+
+                <div class="mr-auto lg:mx-auto ml-4  flex justify-center">
+                    <button type="button" class="border px-4 py-1 rounded">مشاهده&nbsp;همه</button>
+                </div>
+            </div>
+
+            <!--          carousel slider -->
+            <div id="carousel" class="container lg:mr-5 bg-black">
+                <div class="swiper-container  overflow-hidden inline-flex">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="{{asset('/img/01.jpg')}}"></div>
+                        <div class="swiper-slide"><img src="{{asset('/img/02.jpg')}}"></div>
+                        <div class="swiper-slide"><img src="{{asset('/img/03.jpg')}}"></div>
+                        <div class="swiper-slide"><img src="{{asset('/img/04.jpg')}}"></div>
+                        <div class="swiper-slide"><img src="{{asset('/img/05.jpg')}}"></div>
+                        <div class="swiper-slide"><img src="{{asset('/img/06.jpg')}}"></div>
+                    </div>
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+
+                    <!-- pagination -->
+                    <div class="swiper-pagination"></div>
+
+                </div>
+
+            </div>
 
         </div>
-
     </div>
 </div>

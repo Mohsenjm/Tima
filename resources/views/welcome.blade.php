@@ -29,17 +29,14 @@
     </style>
     @livewireStyles
 </head>
-<body class="antialiased bg-white " id="app">
+<body class="antialiased bg-gray-400 " id="app">
 {{--<div class="wrapper">--}}
 <section id="header">@livewire('header')</section>
 
-<section id="content" class="bg-white container mx-auto">
+<section id="content" class="bg-gray-400">
     @include('breadcrumb')
     @livewire('slider')
-
-
 </section>
-
 
 <section id="footer">@livewire('footer')</section>
 
@@ -47,8 +44,6 @@
 {{--</div>--}}
 @livewireScripts
 <script src="{{asset('/js/jquery.min.js')}}"></script>
-{{--<script src="{{asset('/js/openMenu.js')}}"></script>--}}
-{{--<script src="{{asset('/js/app.js')}}"></script>--}}
 <script src="{{ asset('/js/app.js') }}" defer></script>
 
 <script src="{{asset('/js/alpine.min.js')}}"></script>

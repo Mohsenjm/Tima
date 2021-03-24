@@ -1,11 +1,37 @@
-#slideshow {
+#nav-header, #nav-footer {
+    max-width: 1200px;
+}
+
+#banner {
     max-width: 61rem;
 }
 
+#slideshow {
+    max-width: 980px
+}
+
+#carousel {
+    max-width: 52.5rem;
+    height: 16rem;
+}
+
+/*search input*/
+.size {
+    width: 35rem;
+}
+
+@media (max-width: 360px) {
+    .size {
+        width: 20rem;
+    }
+}
+
+/* end search input*/
 .img-fit {
     height: 12rem;
 }
 
+/*carousel slider*/
 .swiper-container {
     width: 100%;
     height: 100%;
@@ -33,3 +59,8 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/*end carousel slider*/
+
+
+

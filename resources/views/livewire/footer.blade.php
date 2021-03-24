@@ -1,12 +1,12 @@
-<footer class="bottom-4 container flex mx-auto bg-gray-700 h-auto ">
+<footer class="bg-gray-700 h-auto">
 
-    <div class="container flex flex-col h-auto">
+    <div id="nav-footer" class="container mx-auto flex flex-col items-center lg:items-stretch h-auto">
 
         {{--        row 1--}}
-        <div class="lg:flex lg:flex-row md:flex md:flex-col md:items-center">
+        <div class="lg:flex lg:flex-row ">
             {{--        right menu--}}
             <div class="w-1/3">
-                <div >
+                <div>
                     <img class="w-40 h-40 mt-4 mb-4" src="/img/icon3.png" alt="logo">
                 </div>
                 <div class="w-max mr-4">
@@ -20,15 +20,15 @@
             {{--        center menu--}}
             <div class="w-1/3">
                 <div class="flex items-center text-white mr-4 mt-4">
-                    <div><i class="fa fa-map-marker fa-3x"></i></div>
+                    <div><i class="fa fa-map-marker text-2xl"></i></div>
                     <div class="mr-8"><span class="mr-4">خراسان&nbsp;جنوبی،قاین،بلوار&nbsp;پاسداران</span></div>
                 </div>
                 <div class="flex items-center text-white mr-4">
-                    <div><i class="fa fa-phone fa-3x"></i></div>
+                    <div><i class="fa fa-phone text-2xl"></i></div>
                     <div class="mr-8"><span class="mr-3">09155626002</span></div>
                 </div>
                 <div class="flex items-center text-white mr-4">
-                    <div><i class="fa fa-envelope-o fa-3x "></i></div>
+                    <div><i class="fa fa-envelope-o  text-2xl "></i></div>
                     <div class="mr-8"><span>info@timasaffron</span></div>
                 </div>
             </div>
@@ -63,11 +63,12 @@
             {{--            social icon--}}
             <div class="w-max flex  items-center mt-2 ml-28">
                 <a href="#"
-                   class="text-white fa fa-send-o fa-2x pl-4 px-4 py-1 hover:bg-gray-600 rounded"></a>
+                   class="text-white fa fa-instagram text-2xl pl-4 px-4 py-1 hover:bg-gray-600 rounded"></a>
                 <a href="#"
-                   class="text-white fa fa-instagram fa-2x pl-4 px-4 py-1 hover:bg-gray-600 rounded"></a>
+                   class="text-white fa fa-toggle-right text-2xl pl-4 px-4 py-1 hover:bg-gray-600 rounded"></a>
+
                 <a href="#"
-                   class="text-white fa fa-whatsapp fa-2x pl-4 px-4 py-1 hover:bg-gray-600 rounded"></a>
+                   class="text-white fa fa-linkedin text-2xl pl-4 px-4 py-1 hover:bg-gray-600 rounded"></a>
             </div>
         </div>
 
