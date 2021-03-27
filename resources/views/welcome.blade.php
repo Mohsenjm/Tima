@@ -7,12 +7,11 @@
     <title>Laravel</title>
 
     <!-- Fonts -->
-    {{--        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">--}}
-
     <link href="{{asset('/css/app.css')}}" rel="stylesheet">
     <link href="{{asset('/css/mobile.css')}}" rel="stylesheet">
     <link href="{{asset('/css/style.css')}}" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link href="{{asset('/css/swiper.css')}}" rel="stylesheet">
+
 
 
     <!-- Styles -->
@@ -29,16 +28,34 @@
     </style>
     @livewireStyles
 </head>
-<body class="antialiased bg-gray-400 " id="app">
-{{--<div class="wrapper">--}}
-<section id="header">@livewire('header')</section>
+<body class="antialiased bg-white ">
+<!-- wrapper -->
+<div class="relative bg-gray-200">
+    <!-- header -->
+    <section id="header">@livewire('header')</section>
+    <!-- end header -->
 
-<section id="content" class="bg-gray-400">
-    @include('breadcrumb')
-    @livewire('slider')
-</section>
+    <!-- carousel slider -->
+{{--    <section id="slide-carousel">--}}
+        @livewire('slider')
+{{--    </section>--}}
 
-<section id="footer">@livewire('footer')</section>
+    <!-- end carousel slider -->
+
+    <!-- content -->
+{{--    <section class="h-full">--}}
+{{--        @livewire('content')--}}
+    @livewire('product-feature')
+{{--    </section>--}}
+
+
+    <!-- end contetn -->
+
+    <!-- footer -->
+{{--    <section id="footer">@livewire('footer')</section>--}}
+    <!-- end footer -->
+</div>
+<!-- wrapper -->
 
 
 {{--</div>--}}
@@ -49,6 +66,7 @@
 <script src="{{asset('/js/alpine.min.js')}}"></script>
 <script src="{{asset('/js/swiper.min.js')}}"></script>
 <script src="{{asset('/js/carousel.js')}}"></script>
+<script src="{{asset('/js/number-input.js')}}"></script>
 
 
 </body>

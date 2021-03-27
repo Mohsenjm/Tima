@@ -1,3 +1,5 @@
+@extends('index')
+@section('header')
 <header class="bg-white shadow-lg md:pr-4 mb-4">
 
     {{--        top menu--}}
@@ -29,10 +31,10 @@
             </div>
 
             {{--            search form--}}
-            <div class=" mb-4 lg:mb-0">
+            <div class="flex mb-4 lg:mb-0">
                 <form action="#" class="relative w-max">
                     <input type="text" name="txt-search"
-                           class="size h-10 pr-4 py-2 px-3 bg-gray-100 rounded "
+                           class="size w-auto h-10 pr-4 py-2 px-3 bg-gray-100 rounded  flex-grow "
                            placeholder="جستجو در تیما زعفران ...">
                     <i class="fa fa-search text-gray-500 absolute top-3 left-2"></i>
                 </form>
@@ -104,3 +106,4 @@
 
 
 </header>
+@stop

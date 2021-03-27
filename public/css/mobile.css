@@ -3,17 +3,4 @@
     #slideshow\ {
         max-width: 1000px;
     }
-
-    .top-navbar{
-        /*
-        display:flex; !important;
-        flex-direction: row; !important;*/
-    }
-   /* .open-btn{
-        display:none ; !important;
-    }
-   */
-    /*.bottom-navbar{
-        display:contents; !important;
-    }*/
 }

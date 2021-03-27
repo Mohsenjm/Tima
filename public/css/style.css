@@ -6,10 +6,12 @@
     max-width: 61rem;
 }
 
-#slideshow {
+#slideshow{
     max-width: 980px
 }
-
+#commit-container ,#show-container{
+ width: 800px;
+ }
 #carousel {
     max-width: 52.5rem;
     height: 16rem;
@@ -62,5 +64,7 @@
 
 /*end carousel slider*/
 
-
-
+#main-content{
+    width: auto;
+    height: 1000px;
+}

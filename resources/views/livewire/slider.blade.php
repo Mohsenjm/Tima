@@ -1,8 +1,8 @@
-<div class="flex flex-col mt-4 mb-4 bg-blue-700">
+<div class="flex flex-col mt-4">
 
     <!-- top slide -->
 
-    <div id="banner" class="container mx-auto flex flex-col lg:flex lg:flex-row mb-5 bg-white w-full">
+    <div id="banner" class="container mx-auto flex flex-col lg:flex lg:flex-row mb-5 w-full">
         <!-- right-box -->
         <div class="bg-white inline-flex flex-col mb-4 lg:flex lg:flex-row lg:mb-0 rounded-md shadow-lg">
             <!-- right text -->
@@ -21,7 +21,7 @@
             <!-- end right text -->
 
             <!-- left image -->
-            <div class="bg-green-100 w-64 h-80 lg:my-auto lg:mx-8 rounded-3xl m-auto">
+            <div class="bg-green-100 lg:w-64 h-80 lg:my-auto lg:mx-8 rounded-3xl m-auto">
                 <img class="w-56 h-56 mx-auto my-12" src="{{asset('/img/01.jpg')}}" alt="img">
             </div>
             <!-- end left image -->
@@ -31,15 +31,15 @@
 
 
         <!-- left-box -->
-        <div class="flex flex-col mr-4 w-full">
+        <div class="flex flex-col lg:mr-4 lg:w-full">
             <!-- top-image -->
             <div class="mb-4 h-1/2 m-auto lg:m-0 lg:mb-4">
-                <img class="img-fit w-full rounded-lg" src="{{asset('/img/01.jpg')}}" alt="img">
+                <img class="img-fit lg:w-full rounded-lg" src="{{asset('/img/01.jpg')}}" alt="img">
             </div>
 
             <!-- bottom-image -->
             <div class="h-1/2 m-auto lg:m-0">
-                <img class="img-fit w-full rounded-lg" src="{{asset('/img/01.jpg')}}" alt="img">
+                <img class="img-fit lg:w-full rounded-lg" src="{{asset('/img/01.jpg')}}" alt="img">
             </div>
         </div>
 
