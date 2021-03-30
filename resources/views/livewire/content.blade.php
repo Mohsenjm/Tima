@@ -1,6 +1,4 @@
-@extends('index')
-@section('content')
-<div class="container max-w-5xl mx-auto h-screen my-4">
+<div class="container max-w-5xl mx-auto h-auto my-4">
 
     <!-- Breadcrumb -->
     <div class="mb-2">
@@ -41,7 +39,7 @@
                     <!-- right box -->
                     <div class="lg:w-4/6 lg:h-auto lg:flex">
                         <!-- image thumbnails -->
-                        <div class="lg:w-1/6 lg:h-full lg:flex lg:flex-col box-border lg:mr-4
+                        <div class="lg:w-28 lg:h-full lg:flex lg:flex-col box-border lg:mr-4
                          flex">
                             <div class="my-2 mx-2">
                                 <img src="{{asset('/img/s1.jpg')}}" alt="product-image"
@@ -63,9 +61,9 @@
                         <!-- end image thumbnails -->
 
                         <!-- image preview -->
-                        <div class="lg:w-full lg:h-auto lg:mr-2 lg:box-border bg-green-900">
+                        <div class="relative lg:w-full lg:h-auto lg:mr-2 lg:box-border">
                             <img src="{{asset('/img/s5.jpg')}}" alt="product-image"
-                                 class="box-border lg:w-full lg:h-full">
+                                 class="absolut box-border lg:w-full lg:h-full">
                         </div>
                         <!-- image preview -->
                     </div>
@@ -118,7 +116,7 @@
                         </li>
                         <li class="flex items-center">
                             <i class="fa fa-check-square-o text-4xl text-blue-400"></i>
-                            <span class="text-gray-500 mr-4">شمانت بازگشت وجه و اصالت کالا</span>
+                            <span class="text-gray-500 mr-4">ضمانت بازگشت وجه و اصالت کالا</span>
                         </li>
                         <li class="flex items-center">
                             <img src="{{asset('/img/box.png')}}" class="w-8 h-8 text-blue-400">
@@ -162,9 +160,8 @@
         </div>
         <!-- end product page -->
 
-        <!-- commit box  -->
-{{--                @livewire('commit')--}}
-    <!-- end commit box -->
+        <!-- comment box  -->
+                @livewire('commit')
+    <!-- end comment box -->
     </div>
 </div>
-@stop

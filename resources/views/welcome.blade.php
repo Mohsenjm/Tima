@@ -32,7 +32,7 @@
 <!-- wrapper -->
 <div class="relative bg-gray-200">
     <!-- header -->
-    <section id="header">@livewire('header')</section>
+    <section>@livewire('header')</section>
     <!-- end header -->
 
     <!-- carousel slider -->
@@ -52,7 +52,7 @@
     <!-- end contetn -->
 
     <!-- footer -->
-{{--    <section id="footer">@livewire('footer')</section>--}}
+    <section>@livewire('footer')</section>
     <!-- end footer -->
 </div>
 <!-- wrapper -->

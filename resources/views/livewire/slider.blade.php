@@ -48,12 +48,12 @@
 
     <!-- carousel slide -->
 
-    <div class="w-full h-auto flex flex-col bg-red-600">
+    <div class="w-full h-auto flex flex-col">
 
-        <div id="slideshow" class="relative flex flex-col lg:flex lg:flex-row container mx-auto bg-yellow-400">
+        <div id="slideshow" class="relative flex flex-col lg:flex lg:flex-row container mx-auto">
             <!--  right menu -->
 
-            <div class="w-full my-2 lg:mr-6 flex flex-row lg:flex lg:flex-col  mx-auto bg-green-200 ">
+            <div class="w-full my-2 lg:mr-6 flex flex-row lg:flex lg:flex-col mx-auto">
 
                 <!--    text -->
 

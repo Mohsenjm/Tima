@@ -1,4 +1,4 @@
-<footer class="bg-gray-700 h-auto">
+<footer class="bottom-0 w-full h-auto bg-gray-700 h-auto">
 
     <div id="nav-footer" class="container mx-auto flex flex-col items-center lg:items-stretch h-auto">
 

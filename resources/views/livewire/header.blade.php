@@ -1,5 +1,3 @@
-@extends('index')
-@section('header')
 <header class="bg-white shadow-lg md:pr-4 mb-4">
 
     {{--        top menu--}}
@@ -106,4 +104,3 @@
 
 
 </header>
-@stop

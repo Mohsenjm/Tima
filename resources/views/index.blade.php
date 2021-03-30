@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -14,23 +14,23 @@
     @livewireStyles
 </head>
 <body class="antialiased">
-<div class="relative min-h-full bg-gray-400">
+<div class="relative h-auto bg-gray-400">
 
-    <div class="bg-green-400">
-        {{--        @yield('header')--}}sdf
+    <div>
+        @livewire('header')
     </div>
 
-    <div class="bg-blue-400 w-auto h-auto">
+    <div class="w-auto h-full mb-4">
 
+        @livewire('slider')
         @livewire('content')
-{{--        @livewire('product-feature')--}}
+                @livewire('product-feature')
 
     </div>
 
-    <div class="bg-red-600 absolute bottom-0 w-full h-auto">
+    <div>
         @livewire('footer')
     </div>
-
 </div>
 
 

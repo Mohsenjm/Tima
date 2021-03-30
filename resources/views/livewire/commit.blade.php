@@ -11,17 +11,20 @@
         class="w-full h-full flex flex-col items-center bg-black">
 
         <!-- tab list -->
-        <ul class="flex bg-white">
-            <li @click="openTab =1" class="mx-6">
-                <a :class="openTab === 1 ? activeClasses : inactiveClasses " href="#">مشخصات</a>
-            </li>
-            <li @click="openTab =2" class="mx-6">
-                <a :class="openTab === 2 ? activeClasses : inactiveClasses " href="#">نظر کاربران</a>
-            </li>
-            <li @click="openTab =3" class="mx-6">
-                <a :class="openTab === 3 ? activeClasses : inactiveClasses " href="#">پرسش و پاسخ</a>
-            </li>
-        </ul>
+        <section id="menu-comment">
+            <ul class="flex bg-white">
+                <li @click="openTab =1" class="mx-6">
+                    <a :class="openTab === 1 ? activeClasses : inactiveClasses " href="#">مشخصات</a>
+                </li>
+                <li @click="openTab =2" class="mx-6">
+                    <a :class="openTab === 2 ? activeClasses : inactiveClasses " href="#">نظر کاربران</a>
+                </li>
+                <li @click="openTab =3" class="mx-6">
+                    <a :class="openTab === 3 ? activeClasses : inactiveClasses " href="#">پرسش و پاسخ</a>
+                </li>
+            </ul>
+        </section>
+
         <!-- end tab list -->
 
         <!-- tab content -->
@@ -96,15 +99,17 @@
     <!-- end comment form -->
 
     <!-- show comment -->
-    <div class="bg-pink-600 flex mt-8">
-        <div id="show-container" class="bg-white mx-auto mt-6 flex px-4">
+    <div class="bg-pink-600 flex flex-col mt-8">
+
+        <!--- question -->
+        <div id="show-container" class="bg-white container mx-auto mt-6 flex px-4">
             <!-- image user -->
             <div>
                 <img src="{{asset('/img/01.jpg')}}" class="w-20 h-16" alt="img-user">
             </div>
             <!-- end image user -->
 
-            <!-- comment box -->
+            <!-- comment section -->
             <div class="border w-full mr-4">
                 <!-- feature -->
                 <div class="w-full mt-4 flex justify-between">
@@ -128,14 +133,14 @@
                     <div class="flex">
                         <!-- user name -->
                         <div class="w-max mr-4">
-                            <span>پاسخ به این نظر</span>
+                            <a>پاسخ به این نظر</a>
                             <i class="fa fa-share-square-o text-gray-300"></i>
                         </div>
                         <!-- end user name -->
 
                         <!-- date -->
                         <div class="bg-blue-400 mr-8">
-                          <i class=""></i>
+                            <i class=""></i>
                         </div>
                         <!-- end date -->
                     </div>
@@ -143,29 +148,105 @@
                 </div>
                 <!-- end feature -->
 
-                <!-- answer text -->
+                <!-- body -->
                 <div class="mt-8 mr-4">
-                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است .</p>
+                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                        چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است .</p>
                 </div>
-                <!-- end answer text -->
+                <!-- end body -->
 
 
                 <!-- -->
                 <div class="flex justify-end ml-6">
                     <div class="pl-4">
                         <i class="fa fa-thumbs-o-down text-gray-300"></i>
-                        <spna class="text-gray-300">2</spna>
+                        <a class="text-gray-300">2</a>
                     </div>
-                    <di>
+                    <div>
                         <i class="fa fa-thumbs-o-up text-gray-300"></i>
-                        <spna class="text-gray-300">10</spna>
-                    </di>
+                        <a class="text-gray-300">10</a>
+                    </div>
 
                 </div>
                 <!-- -->
             </div>
-            <!-- comment box -->
+            <!-- comment section -->
         </div>
+        <!-- end question -->
+
+        <!-- replay -->
+        <div id="show-container" class="bg-white mt-6 flex px-4 flex mx-auto">
+            <!-- image user -->
+            <div>
+                <img src="{{asset('/img/01.jpg')}}" class="w-20 h-16" alt="img-user">
+            </div>
+            <!-- end image user -->
+
+            <!-- comment section -->
+            <div class="border w-full mr-4">
+                <!-- feature -->
+                <div class="w-full mt-4 flex justify-between">
+                    <!-- user & date -->
+                    <div class="flex mr-8">
+                        <!-- user name -->
+                        <div class="w-max">
+                            <span>ناصر شرافتی</span>
+                        </div>
+                        <!-- end user name -->
+
+                        <!-- date -->
+                        <div class="mr-8">
+                            <span class="text-gray-500">1399/11/24</span>
+                        </div>
+                        <!-- end date -->
+                    </div>
+                    <!-- end user & date -->
+
+                    <!-- answer comment -->
+                    <div class="flex">
+                        <!-- user name -->
+                        <div class="w-max mr-4">
+                            <a href="#">پاسخ به این نظر</a>
+                            <i class="fa fa-share-square-o text-gray-300"></i>
+                        </div>
+                        <!-- end user name -->
+
+                        <!-- date -->
+                        <div class="bg-blue-400 mr-8">
+                            <i class=""></i>
+                        </div>
+                        <!-- end date -->
+                    </div>
+                    <!-- end answer comment -->
+                </div>
+                <!-- end feature -->
+
+                <!-- body -->
+                <div class="mt-8 mr-4">
+                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                        چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است .</p>
+                </div>
+                <!-- end body -->
+
+
+                <!-- -->
+                <div class="flex justify-end ml-6">
+                    <div class="pl-4">
+                        <i class="fa fa-thumbs-o-down text-gray-300"></i>
+                        <a href="#" class="text-gray-300">2</a>
+                    </div>
+                    <div>
+                        <i class="fa fa-thumbs-o-up text-gray-300"></i>
+                        <a href="#" class="text-gray-300">10</a>
+                    </div>
+
+                </div>
+                <!-- -->
+            </div>
+            <!-- comment section -->
+        </div>
+        <!-- end replay -->
+
         <!-- end show comment -->
     </div>
 </div>

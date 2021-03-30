@@ -1,23 +1,23 @@
 <div
-    class="container max-w-5xl mx-auto h-screen lg:flex lg:flex-row lg:mt-4 flex flex-col md:flex md:flex-row ">
+    class="container max-w-5xl mx-auto lg:flex lg:flex-row lg:mt-4 flex flex-col md:flex md:flex-row ">
 
     <!-- feature box -->
-    <div class="lg:w-4/5 md:w-4/5 lg:h-auto md:h-auto lg:ml-4">
+    <div class="lg:w-4/5 md:w-4/5 lg:h-full md:h-auto lg:ml-4">
 
         <!-- Breadcrumb -->
         <div class="mb-2">
             <nav class="bg-white border rounded text-black font-bold" aria-label="Breadcrumb">
                 <ol class="list-none p-0 inline-flex p-2">
                     <li class="flex items-center">
-                        <a href="#" class="px-2">فروشگاه</a>
+                        <a href="#" class="text-gray-500 px-2">بلاگ</a>
                         <i class="fa fa-angle-left"></i>
                     </li>
                     <li class="flex items-center">
-                        <a href="#" class="px-2">زعفران ارگانیک</a>
+                        <a href="#" class="text-gray-500 px-2">محصولات ارگانیک</a>
                         <i class="fa fa-angle-left"></i>
                     </li>
                     <li>
-                        <a href="#" class="text-gray-500 px-2" aria-current="page">خاتم 1 مثقالی</a>
+                        <a href="#" class="text-gray-500 px-2" aria-current="page">ویژگی محصولات ارگانیک تیما</a>
                     </li>
                 </ol>
             </nav>
@@ -26,10 +26,10 @@
         <!-- end Breadcrumb -->
 
         <!-- feature content -->
-        <div class="bg-white lg:w-full lg:h-auto rounded border">
+        <div class="bg-white lg:w-full lg:h-auto lg:min-h-full rounded border">
             <!-- header-->
             <div class="py-2 pr-4">
-                <span class="font-bold">ویژگی محصولات تیما</span>
+                <span class="font-bold">ویژگی محصولات ارگانیک تیما</span>
             </div>
             <!-- end header -->
 
@@ -43,7 +43,7 @@
                     <!-- user name -->
                     <div class="w-max">
                         <i class="fa fa-user-o text-gray-500"></i>
-                        <span class="text-gray-500">نتصر شرافتی نیا</span>
+                        <span class="text-gray-500">ناصر شرافتی نیا</span>
                     </div>
                     <!-- end user name -->
                     <!-- comment  -->
@@ -66,18 +66,31 @@
                 <!-- content -->
                 <div class="pr-4">
                     <p>غدای ترریخته و محصولات طبیعی تفاوت اساسی با هم دارند. محصولات ارگانیک بدون دخالت هرگونه ماده
-                        شیمیایی و روش های مصنوعی تولید می شود. محصولات ارگانیک و مواد</p>
+                        و محصولات طبیعی تفاوت اساسی با هم دارند. محصولات ارگانیک بدون دخالت هرگونه مادهو محصولات طبیعی تفاوت اساسی با هم دارند. محصولات ارگانیک بدون دخالت هرگونه ماده
+                        و محصولات طبیعی تفاوت اساسی با هم دارند. محصولات ارگانیک بدون دخالت هرگونه مادهو محصولات طبیعی تفاوت اساسی با هم دارند. محصولات ارگانیک بدون دخالت هرگونه ماده
+                        و محصولات طبیعی تفاوت اساسی با هم دارند. محصولات ارگانیک بدون دخالت هرگونه مادهو محصولات طبیعی تفاوت اساسی با هم دارند. محصولات ارگانیک بدون دخالت هرگونه ماده
+                        و محصولات طبیعی تفاوت اساسی با هم دارند. محصولات ارگانیک بدون دخالت هرگونه ماده
+                        و محصولات طبیعی تفاوت اساسی با هم دارند. محصولات ارگانیک بدون دخالت هرگونه ماده
+                        و محصولات طبیعی تفاوت اساسی با هم دارند. محصولات ارگانیک بدون دخالت هرگونه ماده
+                        و محصولات طبیعی تفاوت اساسی با هم دارند. محصولات ارگانیک بدون دخالت هرگونه ماده
+                        و محصولات طبیعی تفاوت اساسی با هم دارند. محصولات ارگانیک بدون دخالت هرگونه ماده
+                        و محصولات طبیعی تفاوت اساسی با هم دارند. محصولات ارگانیک بدون دخالت هرگونه ماده
+                        و محصولات طبیعی تفاوت اساسی با هم دارند. محصولات ارگانیک بدون دخالت هرگونه مادهشیمیایی و روش های مصنوعی تولید می شود. محصولات ارگانیک و مواد</p>
                 </div>
                 <!-- end content -->
             </div>
         </div>
         <!-- end feature content -->
 
+        <div>
+                    @livewire('commit')
+        </div>
+
     </div>
     <!-- feature box -->
 
     <!-- product categories -->
-    <div class="bg-white lg:w-1/4 lg:h-3/6 lg:flex lg:flex-col lg:justify-start lg:mt-0 border rounded flex flex-col justify-center w-auto h-auto mt-4
+    <div class="bg-white lg:w-1/4 lg:h-80 lg:flex lg:flex-col lg:justify-start lg:mt-0 border rounded flex flex-col justify-center w-auto h-auto mt-4
         md:mt-0 md:w-1/5 md:h-2/5">
         <h3 class="lg:flex flex justify-center font-bold mt-4">دسته بندی ها</h3>
         <!-- menu -->
