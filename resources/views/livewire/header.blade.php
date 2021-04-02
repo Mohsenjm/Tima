@@ -1,7 +1,8 @@
 <header class="bg-white shadow-lg md:pr-4 mb-4">
 
     {{--        top menu--}}
-    <nav id="nav-header" class="container mx-auto flex  items-center flex-wrap " x-data="{isOpen:false}">
+    <nav  class="container max-w-67 mx-auto flex  items-center flex-wrap
+                 " x-data="{isOpen:false}">
 
         {{--        logo--}}
         <a href="#" class="px-4 py-4 lg:px-0 lg:py-0">
@@ -20,19 +21,29 @@
 
             <!-- social icon -->
             <div class="mb-4 lg:mb-0 lg:mr-12">
-                <a href="#"
-                   class=" fa fa-instagram fa-2x pl-4 py-1 text-2xl text-gray-300 hover:bg-gray-600 rounded hover:text-white"></a>
-                <a href="#"
-                   class=" fa fa-send-o fa-2x pl-4  py-1 text-2xl text-gray-300  hover:bg-gray-600 rounded hover:text-white"></a>
-                <a href="#"
-                   class=" fa fa-whatsapp fa-2x pl-4 py-1 text-2xl text-gray-300 hover:bg-gray-600 rounded hover:text-white"></a>
+                <ul class="flex">
+                    <li>
+                        <a href="#"
+                           class="fa fa-instagram fa-2x py-1 px-2 text-2xl text-gray-300 rounded hover:bg-gray-600 hover:text-white"></a>
+                    </li>
+                    <li>
+                        <a href="#"
+                           class=" fa fa-send-o fa-2x py-1 px-2  text-2xl text-gray-300 hover:bg-gray-600 rounded hover:text-white"></a>
+                    </li>
+                    <li>
+                        <a href="#"
+                           class=" fa fa-whatsapp fa-2x py-1 px-2  text-2xl text-gray-300 hover:bg-gray-600 rounded hover:text-white"></a>
+                    </li>
+                </ul>
+
+
             </div>
 
             {{--            search form--}}
-            <div class="flex mb-4 lg:mb-0">
-                <form action="#" class="relative w-max">
+            <div class="lg:w-2/4 w-90 flex mb-4 lg:mb-0">
+                <form action="#" class="relative w-full">
                     <input type="text" name="txt-search"
-                           class="size w-auto h-10 pr-4 py-2 px-3 bg-gray-100 rounded  flex-grow "
+                           class="w-full mx-auto h-10 py-2 px-3 bg-gray-100 rounded"
                            placeholder="جستجو در تیما زعفران ...">
                     <i class="fa fa-search text-gray-500 absolute top-3 left-2"></i>
                 </form>
@@ -66,15 +77,15 @@
                     <li class="pr-6 py-4"><a href="#" class="px-2 py-2 hover:bg-gray-600 rounded hover:text-white">زعفران</a>
                     </li>
                     <li class="pr-6 py-4"><a href="#"
-                                                  class="px-2 py-2 hover:bg-gray-600 rounded hover:text-white">زرشک</a>
+                                             class="px-2 py-2 hover:bg-gray-600 rounded hover:text-white">زرشک</a>
                     </li>
                     <li class="pr-6 py-4"><a href="#"
-                                                  class="px-2 py-2  hover:bg-gray-600 rounded hover:text-white">زرشک</a>
+                                             class="px-2 py-2  hover:bg-gray-600 rounded hover:text-white">زرشک</a>
                     </li>
                     <li class="pr-6 py-4"><a href="#" class="px-2 py-2 hover:bg-gray-600 rounded hover:text-white">سایر&nbsp;محصولات</a>
                     </li>
                     <li class="pr-6 py-4"><a href="#"
-                                                  class="px-2 py-2  hover:bg-gray-600 rounded hover:text-white">مجوزها&nbsp;و&nbsp;تقدیرنامه</a>
+                                             class="px-2 py-2  hover:bg-gray-600 rounded hover:text-white">مجوزها&nbsp;و&nbsp;تقدیرنامه</a>
                     </li>
                     <li class="pr-6 py-4"><a href="#" class="px-2 py-2 hover:bg-gray-600 rounded hover:text-white">درباره&nbsp;ما</a>
                     </li>
@@ -91,7 +102,7 @@
                 </button>
 
                 {{--            register form--}}
-                <button type="button" class="w-44 h-10 flex bg-blue-400 ml-6 hover:bg-gray-600 ">
+                <button type="button" class="w-44 h-10 flex bg-blue-400 ml-6 hover:bg-gray-600 lg:mb-0 mb-2 ">
                     <a href="#"
                        class="fa fa-arrow-circle-left fa-2x w-12 pt-1 bg-blue-300 hover:bg-gray-600 hover:text-white "></a>
                     <span class="mt-0 mx-auto pt-2 font-bold text-white">ورود / ثبت نام</span>

@@ -9,24 +9,11 @@
 #slideshow{
     max-width: 980px
 }
-#commit-container ,#show-container{
- width: 800px;
- }
 #carousel {
     max-width: 52.5rem;
     height: 16rem;
 }
 
-/*search input*/
-.size {
-    width: 35rem;
-}
-
-@media (max-width: 360px) {
-    .size {
-        width: 20rem;
-    }
-}
 
 /* end search input*/
 .img-fit {

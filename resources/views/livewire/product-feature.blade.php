@@ -1,13 +1,13 @@
 <div
-    class="container max-w-5xl mx-auto lg:flex lg:flex-row lg:mt-4 flex flex-col md:flex md:flex-row ">
+    class="container max-w-67 mx-auto lg:flex lg:flex-row lg:mt-4 flex flex-col md:flex md:flex-row ">
 
     <!-- feature box -->
-    <div class="lg:w-4/5 md:w-4/5 lg:h-full md:h-auto lg:ml-4">
+    <div class="lg:w-4/5 md:w-2/3 lg:h-full md:h-auto lg:ml-4">
 
         <!-- Breadcrumb -->
         <div class="mb-2">
             <nav class="bg-white border rounded text-black font-bold" aria-label="Breadcrumb">
-                <ol class="list-none p-0 inline-flex p-2">
+                <ol class="list-none p-0 lg:flex lg:flex-row p-2 flex flex-col">
                     <li class="flex items-center">
                         <a href="#" class="text-gray-500 px-2">بلاگ</a>
                         <i class="fa fa-angle-left"></i>
@@ -39,7 +39,7 @@
             <div class="lg:flex lg:flex-col lg:h-auto lg:flex-row lg:mt-4 ">
 
                 <!-- user -->
-                <div class="flex lg:my-4 lg:mr-4 mb-4">
+                <div class="flex lg:my-4 lg:mr-4 mb-4 mt-2 pr-8">
                     <!-- user name -->
                     <div class="w-max">
                         <i class="fa fa-user-o text-gray-500"></i>
@@ -64,7 +64,7 @@
                 <!-- user -->
 
                 <!-- content -->
-                <div class="pr-4">
+                <div class="p-4">
                     <p>غدای ترریخته و محصولات طبیعی تفاوت اساسی با هم دارند. محصولات ارگانیک بدون دخالت هرگونه ماده
                         و محصولات طبیعی تفاوت اساسی با هم دارند. محصولات ارگانیک بدون دخالت هرگونه مادهو محصولات طبیعی تفاوت اساسی با هم دارند. محصولات ارگانیک بدون دخالت هرگونه ماده
                         و محصولات طبیعی تفاوت اساسی با هم دارند. محصولات ارگانیک بدون دخالت هرگونه مادهو محصولات طبیعی تفاوت اساسی با هم دارند. محصولات ارگانیک بدون دخالت هرگونه ماده
@@ -90,8 +90,8 @@
     <!-- feature box -->
 
     <!-- product categories -->
-    <div class="bg-white lg:w-1/4 lg:h-80 lg:flex lg:flex-col lg:justify-start lg:mt-0 border rounded flex flex-col justify-center w-auto h-auto mt-4
-        md:mt-0 md:w-1/5 md:h-2/5">
+    <div class="bg-white lg:w-1/4 md:w-1/3 md:mx-4 lg:h-80 lg:flex lg:flex-col lg:justify-start lg:mt-0 border rounded flex flex-col justify-center w-auto h-auto mt-4
+        md:mt-0 md:h-2/5 mx-2 lg:mx-0">
         <h3 class="lg:flex flex justify-center font-bold mt-4">دسته بندی ها</h3>
         <!-- menu -->
         <ul class="mt-6 mr-4 flex flex-col">

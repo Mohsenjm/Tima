@@ -14,7 +14,7 @@
     @livewireStyles
 </head>
 <body class="antialiased">
-<div class="relative h-auto bg-gray-400">
+<div class="relative h-auto bg-white">
 
     <div>
         @livewire('header')
@@ -24,7 +24,7 @@
 
         @livewire('slider')
         @livewire('content')
-                @livewire('product-feature')
+        @livewire('product-feature')
 
     </div>
 

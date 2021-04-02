@@ -4,7 +4,7 @@
 
     <div id="banner" class="container mx-auto flex flex-col lg:flex lg:flex-row mb-5 w-full">
         <!-- right-box -->
-        <div class="bg-white inline-flex flex-col mb-4 lg:flex lg:flex-row lg:mb-0 rounded-md shadow-lg">
+        <div class="bg-white inline-flex flex-col md:flex md:flex-row mb-4 lg:flex lg:flex-row lg:mb-0 rounded-md shadow-lg">
             <!-- right text -->
             <div class="mr-4 ml-8 my-auto  flex flex-col justify-center">
                 <h2 class="font-bold flex justify-center mb-4 mt-4">محصولات&nbsp;ارگانیک</h2>
@@ -31,7 +31,7 @@
 
 
         <!-- left-box -->
-        <div class="flex flex-col lg:mr-4 lg:w-full">
+        <div class="flex flex-col lf:flex lg:flex-col md:flex md:flex-row lg:mr-4 lg:w-full">
             <!-- top-image -->
             <div class="mb-4 h-1/2 m-auto lg:m-0 lg:mb-4">
                 <img class="img-fit lg:w-full rounded-lg" src="{{asset('/img/01.jpg')}}" alt="img">
@@ -39,7 +39,7 @@
 
             <!-- bottom-image -->
             <div class="h-1/2 m-auto lg:m-0">
-                <img class="img-fit lg:w-full rounded-lg" src="{{asset('/img/01.jpg')}}" alt="img">
+                <img class="img-fit lg:w-full rounded-lg" src="{{asset('/img/02.jpg')}}" alt="img">
             </div>
         </div>
 
@@ -77,7 +77,7 @@
             </div>
 
             <!--          carousel slider -->
-            <div id="carousel" class="container lg:mr-5 bg-black">
+            <div id="carousel" class="container lg:mr-5">
                 <div class="swiper-container  overflow-hidden inline-flex">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide"><img src="{{asset('/img/01.jpg')}}"></div>
