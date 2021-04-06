@@ -1,7 +1,7 @@
 <header class="bg-white shadow-lg md:pr-4 mb-4">
 
     {{--        top menu--}}
-    <nav  class="container max-w-67 mx-auto flex  items-center flex-wrap
+    <nav  class="container max-w-67 mx-auto flex  items-center flex-wrap font-display text-regular text-gray-500
                  " x-data="{isOpen:false}">
 
         {{--        logo--}}
@@ -102,10 +102,10 @@
                 </button>
 
                 {{--            register form--}}
-                <button type="button" class="w-44 h-10 flex bg-blue-400 ml-6 hover:bg-gray-600 lg:mb-0 mb-2 ">
+                <button type="button" class="w-44 h-10 flex bg-blue-400 ml-6 hover:bg-gray-300 lg:mb-0 mb-2 ">
                     <a href="#"
-                       class="fa fa-arrow-circle-left fa-2x w-12 pt-1 bg-blue-300 hover:bg-gray-600 hover:text-white "></a>
-                    <span class="mt-0 mx-auto pt-2 font-bold text-white">ورود / ثبت نام</span>
+                       class="fa fa-arrow-circle-left fa-2x w-12 pt-1 bg-blue-300 hover:bg-gray-300 hover:text-white "></a>
+                    <span class="mt-0 mx-auto pt-2 text-white">ورود / ثبت نام</span>
                 </button>
             </div>
 

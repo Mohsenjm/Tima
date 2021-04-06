@@ -1,20 +1,17 @@
-<footer class="bottom-0 w-full h-auto bg-gray-700 h-auto">
+<footer class="bottom-0 w-full h-auto bg-gray-700 h-auto font-display">
 
     <div class="container max-w-67 mx-auto flex flex-col items-center lg:items-stretch h-auto">
 
         {{--        row 1--}}
-        <div class="lg:flex lg:flex-row justify-center ">
+        <div class="lg:flex lg:flex-row flex flex-col justify-center ">
             {{--        right menu--}}
-            <div class="lg:w-1/3 w-full">
+            <div class="lg:w-1/3">
                 <div class="flex justify-center lg:flex-col">
                     <img class="w-28 h-32 mt-4 mb-4" src="/img/icon3.png" alt="logo">
                 </div>
-                <div class="w-max">
-                    <p class="text-white text-justify">مجموعه&nbsp;شرکت&nbsp;های&nbsp;تیما&nbsp;زعفران،&nbsp;بیونیک&nbsp;و&nbsp;رزلا&nbsp;با&nbsp;هدف&nbsp</p>
-                    <p class="text-white text-justify">تولید&nbsp;محصولات&nbsp;ارگانیک&nbsp;و&nbsp;تأمین&nbsp;محصولات&nbsp;سالم&nbsp;بصورت</p>
-                    <p class="text-white text-justify">حرفه&nbsp;ای&nbsp;فعالیت&nbsp;میکند.</p>
-                </div>
-
+                    <p class="text-white ">مجموعه&nbsp;شرکت&nbsp;های&nbsp;تیما&nbsp;زعفران&nbsp;&nbsp;،&nbsp;بیونیک&nbsp;و&nbsp;رزلا&nbsp;با&nbsp;هدف </p>
+                    <p class="text-white ">توليـد&nbsp;محصـولات&nbsp;ارگانیک&nbsp;و&nbsp;تامیـن&nbsp;محصـولات&nbsp;سالم</p>
+                    <p class="text-white ">بصورت&nbsp;حرفه&nbsp;ای&nbsp;فعالیت&nbsp;میکند</p>
             </div>
 
             {{--        center menu--}}
@@ -71,7 +68,7 @@
         </div>
 
         {{--        row3--}}
-        <div class="flex justify-center mb-8">
+        <div class="flex justify-center mb-8 mt-2">
             <p class="text-white">تمامی&nbsp;حقوق&nbsp;مادی&nbsp;و&nbsp;معنوی&nbsp;نزد&nbsp;تیما&nbsp;زعفران&nbsp;محفوظ&nbsp;است</p>
         </div>
     </div>
