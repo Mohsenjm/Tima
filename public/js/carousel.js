@@ -12,8 +12,7 @@ $(document).ready(function (){
         },
         loop: true,
         slidesPerView: 3,
-        spaceBetween: 20,
-        // effect: 'coverflow',
+        spaceBetween: 10,
         autoplay: {
             delay: 5000,
             disableOnInteraction: true,

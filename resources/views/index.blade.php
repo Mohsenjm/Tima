@@ -10,8 +10,9 @@
 <!--
     <link href="{{asset('/css/mobile.css')}}" rel="stylesheet">
     <link href="{{asset('/css/style.css')}}" rel="stylesheet">
+    -->
     <link href="{{asset('/css/swiper.css')}}" rel="stylesheet">
--->
+
 
     @livewireStyles
 </head>
@@ -25,8 +26,8 @@
     <div class="w-auto h-full mb-4">
 
         @livewire('slider')
-        @livewire('content')
-        @livewire('product-feature')
+{{--        @livewire('content')--}}
+{{--        @livewire('product-feature')--}}
 
     </div>
 

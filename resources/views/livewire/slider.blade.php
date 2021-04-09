@@ -14,7 +14,7 @@
                 </div>
                 <div class="flex justify-center mb-4">
                     <a href="#"
-                       class="flex justify-center items-center text-white w-24 h-10  bg-indigo-800 rounded-2xl text-light">مشاهده</a>
+                       class="flex justify-center items-center text-white w-24 h-10  bg-indigo-800 rounded-2xl text-light hover:bg-blue-400">مشاهده</a>
                 </div>
 
             </div>
@@ -42,7 +42,6 @@
                 <img class="img-fit lg:w-full rounded-lg" src="{{asset('/img/02.jpg')}}" alt="img">
             </div>
         </div>
-
         <!-- end left-box -->
     </div>
 
@@ -50,19 +49,16 @@
 
     <div class="w-full h-auto flex flex-col">
 
-        <div class="relative max-w-980 flex flex-col lg:flex lg:flex-row container mx-auto">
+        <div class="relative max-w-980 flex flex-col lg:flex lg:flex-row container mx-auto bg-red-600">
+
             <!--  right menu -->
-
             <div class="w-full my-2 lg:mr-6 flex flex-row lg:flex lg:flex-col mx-auto">
-
                 <!--    text -->
-
                 <div class="flex flex-col items-center text-medium mr-auto lg:mx-auto pt-4">
                     <span>پیشنهاد</span>
                     <span>شگفت</span>
                     <span>انگیز</span>
                 </div>
-
                 <!--   image -->
 
                 <div class="flex justify-center mr-auto lg:mx-auto py-4">
@@ -72,20 +68,110 @@
                 <!--   button -->
 
                 <div class="mr-auto lg:mx-auto ml-4  flex justify-center">
-                    <button type="button" class="border px-4 py-1 rounded text-ultralight">مشاهده&nbsp;همه</button>
+                    <button type="button" class="border px-4 py-1 rounded text-ultralight hover:bg-gray-500 hover:border-gray-400 ">مشاهده&nbsp;همه</button>
                 </div>
             </div>
 
             <!--          carousel slider -->
-            <div class="container max-w-53 h-64 lg:mr-5">
+            <div class="container max-w-53 h-96 lg:mr-5">
                 <div class="swiper-container  overflow-hidden inline-flex">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide"><img src="{{asset('/img/01.jpg')}}"></div>
-                        <div class="swiper-slide"><img src="{{asset('/img/02.jpg')}}"></div>
-                        <div class="swiper-slide"><img src="{{asset('/img/03.jpg')}}"></div>
-                        <div class="swiper-slide"><img src="{{asset('/img/04.jpg')}}"></div>
-                        <div class="swiper-slide"><img src="{{asset('/img/05.jpg')}}"></div>
-                        <div class="swiper-slide"><img src="{{asset('/img/06.jpg')}}"></div>
+                       <div class="swiper-slide">
+                            <div class="swiper-image">
+                                <img class="swiper-img" src="{{asset('/img/01.jpg')}}">
+                            </div>
+                            <div class="swiper-product-name"><span class="font-display text-bold">زرشک ارگانیک</span></div>
+                            <div class="swiper-price-offer font-display flex flex-col items-center lg:flex md:flex md:flex-row">
+                                <span class="text-gray-400 line-through text-regular">54000</span>
+                                <span class="bg-red-600 rounded px-1 py-1 mr-4">
+                                    <span>20</span><span>%</span>
+                                </span>
+                            </div>
+                            <div class="swiper-price font-display">
+                                <span>50000</span>
+                                <span>تومان</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-image">
+                                <img class="swiper-img" src="{{asset('/img/02.jpg')}}">
+                            </div>
+                            <div class="swiper-product-name"><span class="font-display text-bold">زرشک ارگانیک</span></div>
+                            <div class="swiper-price-offer font-display flex flex-col items-center lg:flex md:flex md:flex-row">
+                                <span class="text-gray-400 line-through text-regular">54000</span>
+                                <span class="bg-red-600 rounded px-1 py-1 mr-4">
+                                    <span>20</span><span>%</span>
+                                </span>
+                            </div>
+                            <div class="swiper-price font-display">
+                                <span>50000</span>
+                                <span>تومان</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-image">
+                                <img class="swiper-img" src="{{asset('/img/03.jpg')}}">
+                            </div>
+                            <div class="swiper-product-name"><span class="font-display text-bold">زرشک ارگانیک</span></div>
+                            <div class="swiper-price-offer font-display flex items-center flex-col lg:flex md:flex md:flex-row">
+                                <span class="text-gray-400 line-through text-regular">54000</span>
+                                <span class="bg-red-600 rounded px-1 py-1 mr-4">
+                                    <span>20</span><span>%</span>
+                                </span>
+                            </div>
+                            <div class="swiper-price font-display">
+                                <span>50000</span>
+                                <span>تومان</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-image">
+                                <img class="swiper-img" src="{{asset('/img/04.jpg')}}">
+                            </div>
+                            <div class="swiper-product-name"><span class="font-display text-bold">زرشک ارگانیک</span></div>
+                            <div class="swiper-price-offer font-display flex items-center flex-col lg:flex md:flex md:flex-row">
+                                <span class="text-gray-400 line-through text-regular">54000</span>
+                                <span class="bg-red-600 rounded px-1 py-1 mr-4">
+                                    <span>20</span><span>%</span>
+                                </span>
+                            </div>
+                            <div class="swiper-price font-display">
+                                <span>50000</span>
+                                <span>تومان</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-image">
+                                <img class="swiper-img" src="{{asset('/img/05.jpg')}}">
+                            </div>
+                            <div class="swiper-product-name"><span class="font-display text-bold">زرشک ارگانیک</span></div>
+                            <div class="swiper-price-offer font-display flex flex-col items-center lg:flex md:flex md:flex-row">
+                                <span class="text-gray-400 line-through text-regular">54000</span>
+                                <span class="bg-red-600 rounded px-1 py-1 mr-4">
+                                    <span>20</span><span>%</span>
+                                </span>
+                            </div>
+                            <div class="swiper-price font-display">
+                                <span>50000</span>
+                                <span>تومان</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-image">
+                                <img class="swiper-img" src="{{asset('/img/06.jpg')}}">
+                            </div>
+                            <div class="swiper-product-name"><span class="font-display text-bold">زرشک ارگانیک</span></div>
+                            <div class="swiper-price-offer font-display flex flex-col items-center lg:flex md:flex md:flex-row">
+                                <span class="text-gray-400 line-through text-regular">54000</span>
+                                <span class="bg-red-600 rounded px-1 py-1 mr-4">
+                                    <span>20</span><span>%</span>
+                                </span>
+                            </div>
+                            <div class="swiper-price font-display">
+                                <span>50000</span>
+                                <span>تومان</span>
+                            </div>
+                        </div>
                     </div>
                     <!-- Add Arrows -->
                     <div class="swiper-button-next"></div>

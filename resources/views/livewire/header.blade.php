@@ -71,7 +71,7 @@
 
             <div class="flex w-max mb-4 lg:inline-flex lg:mb-0 xl:mb-0 ">
                 <ul class="flex flex-col  lg:flex lg:flex-row">
-                    <li class="py-4 px-4 lg:px-0"><a href="#"
+                    <li class="py-4 px-4 lg:px-0 hover:bg-gray-500"><a href="#"
                                                      class="px-2 py-2  hover:bg-gray-600 rounded hover:text-white">صفحه&nbsp;اصلی</a>
                     </li>
                     <li class="pr-6 py-4"><a href="#" class="px-2 py-2 hover:bg-gray-600 rounded hover:text-white">زعفران</a>

@@ -78,7 +78,7 @@
                 <div
                     class="lg:w-max lg:h-auto lg:mr-8 lg:ml-4 lg:my-0 lg:mb-0 lg:flex lg:flex-col lg:justify-start mb-4 flex justify-center mr-8">
                     <ul class="mx-auto">
-                        <li class="w-max" >
+                        <li class="w-max">
                             <span class="text-regular text-gray-600">وضعیت :</span>
                             <span class="bg-green-400 text-white">موجود</span>
                         </li>
@@ -108,58 +108,65 @@
 
                 <!-- send box -->
                 <div class="lg:w-max lg:ml-8 lg:flex lg:flex-col justify-center md:flex md:ml-4 flex flex-col">
-                  <div class="flex flex-col items-center">
-                      <!-- box title -->
-                      <ul class="flex flex-col">
-                          <li class="flex items-center">
-                              <img src="{{asset('/img/buy-icon.png')}}" class="w-8 h-12">
-                              <span class="text-gray-600 text-regular mr-4">ضمانت محصول ارگانیک</span>
-                          </li>
-                          <li class="flex items-center">
-                              <i class="fa fa-check-square-o text-4xl text-blue-400"></i>
-                              <span class="text-gray-600 text-regular mr-4">آماده ارسال از انبار فروشگاه</span>
-                          </li>
-                          <li class="flex items-center">
-                              <i class="fa fa-check-square-o text-4xl text-blue-400"></i>
-                              <span class="text-gray-600 text-regular mr-4">ضمانت بازگشت وجه و اصالت کالا</span>
-                          </li>
-                          <li class="flex items-center">
-                              <img src="{{asset('/img/box.png')}}" class="w-8 h-8 text-blue-400">
-                              <span class="text-gray-600 text-regular mr-4">امکن خرید و پرداخت در محل</span>
-                          </li>
+                    <div class="flex flex-col items-center">
+                        <!-- box title -->
+                        <ul class="flex flex-col">
+                            <li class="flex items-center">
+                                <img src="{{asset('/img/buy-icon.png')}}" class="w-8 h-12">
+                                <span class="text-gray-600 text-regular mr-4">ضمانت محصول ارگانیک</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fa fa-check-square-o text-4xl text-blue-400"></i>
+                                <span class="text-gray-600 text-regular mr-4">آماده ارسال از انبار فروشگاه</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fa fa-check-square-o text-4xl text-blue-400"></i>
+                                <span class="text-gray-600 text-regular mr-4">ضمانت بازگشت وجه و اصالت کالا</span>
+                            </li>
+                            <li class="flex items-center">
+                                <img src="{{asset('/img/box.png')}}" class="w-8 h-8 text-blue-400">
+                                <span class="text-gray-600 text-regular mr-4">امکن خرید و پرداخت در محل</span>
+                            </li>
 
-                      </ul>
-                      <!-- end box title -->
+                        </ul>
+                        <!-- end box title -->
 
-                      <!-- form box -->
-                      <div class="mt-6 w-max">
-                          <!-- price  box -->
-                          <div class="lg:flex lg:flex-row flex flex-col md:flex md:flex-row justify-between items-center">
-                              <span class="text-gray-400 line-through text-regular">75000 تومان</span>
-                              <span class="bg-red-600 rounded px-2 py-2 mx-4">20 %</span>
-                              <span class="text-gray-600 text-regular">65000 تومان</span>
-                          </div>
-                          <!-- end price box -->
+                        <!-- form box -->
+                        <div class="mt-6 w-max">
+                            <!-- price  box -->
+                            <div
+                                class="lg:flex lg:flex-row flex flex-col md:flex md:flex-row justify-between items-center">
+                              <span class="text-gray-400 line-through text-regular">
+                                  <span>تومان</span><span>75000</span>
+                                  </span>
+                                <span class="bg-red-600 rounded px-2 py-2 mx-4">
+                                   <span>20</span><span>%</span>
+                              </span>
+                                <span class="text-gray-600 text-regular">
+                                    <span>تومان</span><span>65000</span>
+                                </span>
+                            </div>
+                            <!-- end price box -->
 
-                          <!-- form quantity -->
-                          <form accept-charset="#" method="get">
-                              <div class="input-group h-8 bg-gray-300 flex justify-center rounded my-2 flex-shrink">
-                                  <input type="button" value="+" class="button-plus text-lg bg-gray-300"
-                                         data-field="quantity">
-                                  <input type="text" step="1" max="" value="1" name="quantity"
-                                         class="flex text-center mx-1 bg-gray-300 w-12">
-                                  <input type="button" value="-" class="button-minus text-lg bg-gray-300"
-                                         data-field="quantity">
-                              </div>
-                              <button type="submit"
-                                      class="text-center text-white mt-4 rounded hover:bg-blue-500 h-8 w-full block bg-blue-400 ">
-                                  افزودن به سبد خرید
-                              </button>
-                          </form>
-                          <!-- end form quantity -->
-                      </div>
-                      <!-- end form box -->
-                  </div>
+                            <!-- form quantity -->
+                            <form accept-charset="#" method="get">
+                                <div class="input-group h-8 bg-gray-300 flex justify-center rounded my-2 flex-shrink">
+                                    <input type="button" value="+" class="button-plus text-lg bg-gray-300"
+                                           data-field="quantity">
+                                    <input type="text" step="1" max="" value="1" name="quantity"
+                                           class="flex text-center mx-1 bg-gray-300 w-12">
+                                    <input type="button" value="-" class="button-minus text-lg bg-gray-300"
+                                           data-field="quantity">
+                                </div>
+                                <button type="submit"
+                                        class="text-center text-white mt-4 rounded hover:bg-blue-500 h-8 w-full block bg-blue-400 ">
+                                    افزودن به سبد خرید
+                                </button>
+                            </form>
+                            <!-- end form quantity -->
+                        </div>
+                        <!-- end form box -->
+                    </div>
 
                 </div>
                 <!-- end sen box -->
