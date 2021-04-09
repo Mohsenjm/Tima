@@ -140,7 +140,7 @@
                                   <span>تومان</span><span>75000</span>
                                   </span>
                                 <span class="bg-red-600 rounded px-2 py-2 mx-4">
-                                   <span>20</span><span>%</span>
+                                   <span>%</span><span>20</span>
                               </span>
                                 <span class="text-gray-600 text-regular">
                                     <span>تومان</span><span>65000</span>

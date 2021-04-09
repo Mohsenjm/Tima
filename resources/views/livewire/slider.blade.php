@@ -4,7 +4,8 @@
 
     <div class="container mx-auto max-w-61 flex flex-col lg:flex lg:flex-row mb-5 w-full font-display">
         <!-- right-box -->
-        <div class="bg-white inline-flex flex-col md:flex md:flex-row mb-4 lg:flex lg:flex-row lg:mb-0 rounded-md shadow-lg">
+        <div
+            class="bg-white inline-flex flex-col md:flex md:flex-row mb-4 lg:flex lg:flex-row lg:mb-0 rounded-md shadow-lg">
             <!-- right text -->
             <div class="mr-4 ml-8 my-auto  flex flex-col justify-center text-regular">
                 <h2 class="flex justify-center mb-4 mt-4 text-medium">محصولات&nbsp;ارگانیک</h2>
@@ -68,7 +69,10 @@
                 <!--   button -->
 
                 <div class="mr-auto lg:mx-auto ml-4  flex justify-center">
-                    <button type="button" class="border px-4 py-1 rounded text-ultralight hover:bg-gray-500 hover:border-gray-400 ">مشاهده&nbsp;همه</button>
+                    <button type="button"
+                            class="border px-4 py-1 rounded text-ultralight hover:bg-gray-500 hover:border-gray-400 ">
+                        مشاهده&nbsp;همه
+                    </button>
                 </div>
             </div>
 
@@ -76,15 +80,17 @@
             <div class="container max-w-53 h-96 lg:mr-5">
                 <div class="swiper-container  overflow-hidden inline-flex">
                     <div class="swiper-wrapper">
-                       <div class="swiper-slide">
+                        <div class="swiper-slide">
                             <div class="swiper-image">
                                 <img class="swiper-img" src="{{asset('/img/01.jpg')}}">
                             </div>
-                            <div class="swiper-product-name"><span class="font-display text-bold">زرشک ارگانیک</span></div>
-                            <div class="swiper-price-offer font-display flex flex-col items-center lg:flex md:flex md:flex-row">
+                            <div class="swiper-product-name"><span class="font-display text-bold">زرشک ارگانیک</span>
+                            </div>
+                            <div
+                                class="swiper-price-offer font-display flex flex-col items-center lg:flex md:flex md:flex-row">
                                 <span class="text-gray-400 line-through text-regular">54000</span>
-                                <span class="bg-red-600 rounded px-1 py-1 mr-4">
-                                    <span>20</span><span>%</span>
+                                <span class="bg-red-600 text-white rounded px-1 py-1 mr-4">
+                                  <span>%</span><span>20</span>
                                 </span>
                             </div>
                             <div class="swiper-price font-display">
@@ -96,11 +102,13 @@
                             <div class="swiper-image">
                                 <img class="swiper-img" src="{{asset('/img/02.jpg')}}">
                             </div>
-                            <div class="swiper-product-name"><span class="font-display text-bold">زرشک ارگانیک</span></div>
-                            <div class="swiper-price-offer font-display flex flex-col items-center lg:flex md:flex md:flex-row">
+                            <div class="swiper-product-name"><span class="font-display text-bold">زرشک ارگانیک</span>
+                            </div>
+                            <div
+                                class="swiper-price-offer font-display flex flex-col items-center lg:flex md:flex md:flex-row">
                                 <span class="text-gray-400 line-through text-regular">54000</span>
-                                <span class="bg-red-600 rounded px-1 py-1 mr-4">
-                                    <span>20</span><span>%</span>
+                                <span class="bg-red-600 text-white rounded px-1 py-1 mr-4">
+                                    <span>%</span><span>20</span>
                                 </span>
                             </div>
                             <div class="swiper-price font-display">
@@ -112,11 +120,13 @@
                             <div class="swiper-image">
                                 <img class="swiper-img" src="{{asset('/img/03.jpg')}}">
                             </div>
-                            <div class="swiper-product-name"><span class="font-display text-bold">زرشک ارگانیک</span></div>
-                            <div class="swiper-price-offer font-display flex items-center flex-col lg:flex md:flex md:flex-row">
+                            <div class="swiper-product-name"><span class="font-display text-bold">زرشک ارگانیک</span>
+                            </div>
+                            <div
+                                class="swiper-price-offer font-display flex items-center flex-col lg:flex md:flex md:flex-row">
                                 <span class="text-gray-400 line-through text-regular">54000</span>
-                                <span class="bg-red-600 rounded px-1 py-1 mr-4">
-                                    <span>20</span><span>%</span>
+                                <span class="bg-red-600 text-white rounded px-1 py-1 mr-4">
+                                   <span>%</span><span>20</span>
                                 </span>
                             </div>
                             <div class="swiper-price font-display">
@@ -128,11 +138,13 @@
                             <div class="swiper-image">
                                 <img class="swiper-img" src="{{asset('/img/04.jpg')}}">
                             </div>
-                            <div class="swiper-product-name"><span class="font-display text-bold">زرشک ارگانیک</span></div>
-                            <div class="swiper-price-offer font-display flex items-center flex-col lg:flex md:flex md:flex-row">
+                            <div class="swiper-product-name"><span class="font-display text-bold">زرشک ارگانیک</span>
+                            </div>
+                            <div
+                                class="swiper-price-offer font-display flex items-center flex-col lg:flex md:flex md:flex-row">
                                 <span class="text-gray-400 line-through text-regular">54000</span>
-                                <span class="bg-red-600 rounded px-1 py-1 mr-4">
-                                    <span>20</span><span>%</span>
+                                <span class="bg-red-600 text-white rounded px-1 py-1 mr-4">
+                                 <span>%</span><span>20</span>
                                 </span>
                             </div>
                             <div class="swiper-price font-display">
@@ -144,11 +156,13 @@
                             <div class="swiper-image">
                                 <img class="swiper-img" src="{{asset('/img/05.jpg')}}">
                             </div>
-                            <div class="swiper-product-name"><span class="font-display text-bold">زرشک ارگانیک</span></div>
-                            <div class="swiper-price-offer font-display flex flex-col items-center lg:flex md:flex md:flex-row">
+                            <div class="swiper-product-name"><span class="font-display text-bold">زرشک ارگانیک</span>
+                            </div>
+                            <div
+                                class="swiper-price-offer font-display flex flex-col items-center lg:flex md:flex md:flex-row">
                                 <span class="text-gray-400 line-through text-regular">54000</span>
-                                <span class="bg-red-600 rounded px-1 py-1 mr-4">
-                                    <span>20</span><span>%</span>
+                                <span class="bg-red-600 text-white rounded px-1 py-1 mr-4">
+                                    <span>%</span><span>20</span>
                                 </span>
                             </div>
                             <div class="swiper-price font-display">
@@ -160,11 +174,13 @@
                             <div class="swiper-image">
                                 <img class="swiper-img" src="{{asset('/img/06.jpg')}}">
                             </div>
-                            <div class="swiper-product-name"><span class="font-display text-bold">زرشک ارگانیک</span></div>
-                            <div class="swiper-price-offer font-display flex flex-col items-center lg:flex md:flex md:flex-row">
+                            <div class="swiper-product-name"><span class="font-display text-bold">زرشک ارگانیک</span>
+                            </div>
+                            <div
+                                class="swiper-price-offer font-display flex flex-col items-center lg:flex md:flex md:flex-row">
                                 <span class="text-gray-400 line-through text-regular">54000</span>
-                                <span class="bg-red-600 rounded px-1 py-1 mr-4">
-                                    <span>20</span><span>%</span>
+                                <span class="bg-red-600 text-white rounded px-1 py-1 mr-4">
+                                   <span>%</span><span>20</span>
                                 </span>
                             </div>
                             <div class="swiper-price font-display">

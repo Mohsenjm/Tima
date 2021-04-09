@@ -10,8 +10,8 @@
 <!--
     <link href="{{asset('/css/mobile.css')}}" rel="stylesheet">
     <link href="{{asset('/css/style.css')}}" rel="stylesheet">
-    -->
-    <link href="{{asset('/css/swiper.css')}}" rel="stylesheet">
+
+    <link href="{{asset('/css/swiper.css')}}" rel="stylesheet">-->
 
 
     @livewireStyles
@@ -26,8 +26,8 @@
     <div class="w-auto h-full mb-4">
 
         @livewire('slider')
-{{--        @livewire('content')--}}
-{{--        @livewire('product-feature')--}}
+        @livewire('content')
+        @livewire('product-feature')
 
     </div>
 
@@ -38,12 +38,13 @@
 
 
 @livewireScripts
-<script src="{{asset('/js/jquery.min.js')}}"></script>
 <script src="{{ asset('/js/app.js') }}" defer></script>
 
-<script src="{{asset('/js/alpine.min.js')}}"></script>
+<script src="{{asset('/js/jquery.min.js')}}"></script>
+
+{{--<script src="{{asset('/js/alpine.min.js')}}"></script>--}}
 <script src="{{asset('/js/swiper.min.js')}}"></script>
 <script src="{{asset('/js/carousel.js')}}"></script>
-<script src="{{asset('/js/number-input.js')}}"></script>
+{{--<script src="{{asset('/js/number-input.js')}}"></script>--}}
 </body>
 </html>
