@@ -3080,7 +3080,7 @@
   padding: 0;
   /* Fix of Webkit flickering */
   z-index: 1;
-  width: 96.5%;
+  /*width: 96.5%;*/
 }
 
 .swiper-container-vertical > .swiper-wrapper {
@@ -3131,6 +3131,7 @@
   position: relative;
   transition-property: transform;
   background-color: #ffffff;
+  border: 1px solid #b8b8b8;
   border-radius: 10px;
   flex-direction: column;
   margin-top: 1rem;
@@ -3357,7 +3358,7 @@
 .swiper-pagination-fraction,
 .swiper-pagination-custom,
 .swiper-container-horizontal > .swiper-pagination-bullets {
-  bottom: 10px;
+  bottom: 0;
   left: 0;
   width: 100%;
 }
@@ -4044,19 +4045,19 @@ blockquote {
   padding-left: 5px;
   float: right;
   margin-left: 10px;
-  margin-bottom: 0px;
-  min-width: 0px;
+  margin-bottom: 0;
+  min-width: 0;
   background-color: #F7F7F7;
 }
 
 .titelbox {
   width: 60%;
   padding-right: 25px;
-  padding-left: 0px;
+  padding-left: 0;
   float: right;
   margin-left: 10px;
-  margin-bottom: 0px;
-  min-width: 0px;
+  margin-bottom: 0;
+  min-width: 0;
   background-color: #F2F2F2;
   color: #4B4B4B;
 }
@@ -4066,7 +4067,7 @@ blockquote {
   padding-left: 4px;
   float: right;
   margin-bottom: 10px;
-  min-width: 0px;
+  min-width: 0;
 }
 
 .alphabet {
@@ -4094,8 +4095,8 @@ blockquote {
   font-size: 0.7em;
   text-align: center;
   direction: ltr;
-  margin-bottom: 0px;
-  padding-bottom: 0px;
+  margin-bottom: 0;
+  padding-bottom: 0;
 } /* لینک فایلی که وظیفه بارگذاری فونت ها را برعهده دارد */
 
 body {
@@ -4250,19 +4251,19 @@ blockquote {
   padding-left: 5px;
   float: right;
   margin-left: 10px;
-  margin-bottom: 0px;
-  min-width: 0px;
+  margin-bottom: 0;
+  min-width: 0;
   background-color: #F7F7F7;
 }
 
 .titelbox {
   width: 60%;
   padding-right: 25px;
-  padding-left: 0px;
+  padding-left: 0;
   float: right;
   margin-left: 10px;
-  margin-bottom: 0px;
-  min-width: 0px;
+  margin-bottom: 0;
+  min-width: 0;
   background-color: #F2F2F2;
   color: #4B4B4B;
 }
@@ -4272,7 +4273,7 @@ blockquote {
   padding-left: 4px;
   float: right;
   margin-bottom: 10px;
-  min-width: 0px;
+  min-width: 0;
 }
 
 .alphabet {
@@ -4300,8 +4301,8 @@ blockquote {
   font-size: 0.7em;
   text-align: center;
   direction: ltr;
-  margin-bottom: 0px;
-  padding-bottom: 0px;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 /* end fontiran */
@@ -31302,7 +31303,7 @@ video {
 }
 
 .w-10 {
-  width: 2.5rem;
+  width: 10%;
 }
 
 .w-11 {
@@ -61951,7 +61952,7 @@ video {
   }
 
   .sm\:w-10 {
-    width: 2.5rem;
+    width: 10%;
   }
 
   .sm\:w-11 {
@@ -92535,7 +92536,7 @@ video {
   }
 
   .md\:w-10 {
-    width: 2.5rem;
+    width: 10%;
   }
 
   .md\:w-11 {
@@ -123119,7 +123120,7 @@ video {
   }
 
   .lg\:w-10 {
-    width: 2.5rem;
+    width: 10%;
   }
 
   .lg\:w-11 {
@@ -153703,7 +153704,7 @@ video {
   }
 
   .xl\:w-10 {
-    width: 2.5rem;
+    width: 10%;
   }
 
   .xl\:w-11 {
@@ -184287,7 +184288,7 @@ video {
   }
 
   .\32xl\:w-10 {
-    width: 2.5rem;
+    width: 10%;
   }
 
   .\32xl\:w-11 {

@@ -1,20 +1,21 @@
 $(document).ready(function (){
     let swiper = new Swiper(".swiper-container", {
+
         navigation: {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
         },
         pagination: {
             el: ".swiper-pagination",
-            type: "progressbar",
-            bottom:"0",
+            clickable: true,
         },
         loop: true,
-        slidesPerView: 3,
+        centeredSlides: true,
+        slidesPerView: 4,
         spaceBetween: 10,
         autoplay: {
             delay: 5000,
-            disableOnInteraction: true,
+            disableOnInteraction: false,
         },
         speed: 600,
         parallax: true,

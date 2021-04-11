@@ -169,8 +169,8 @@ blockquote {
     padding-left: 5px;
     float: right;
     margin-left: 10px;
-    margin-bottom: 0px;
-    min-width: 0px;
+    margin-bottom: 0;
+    min-width: 0;
     background-color: #F7F7F7;
 
 }
@@ -178,11 +178,11 @@ blockquote {
 .titelbox {
     width: 60%;
     padding-right: 25px;
-    padding-left: 0px;
+    padding-left: 0;
     float: right;
     margin-left: 10px;
-    margin-bottom: 0px;
-    min-width: 0px;
+    margin-bottom: 0;
+    min-width: 0;
     background-color: #F2F2F2;
     color: #4B4B4B;
 }
@@ -194,7 +194,7 @@ blockquote {
     padding-left: 4px;
     float: right;
     margin-bottom: 10px;
-    min-width: 0px;
+    min-width: 0;
 }
 
 .alphabet {
@@ -221,8 +221,8 @@ blockquote {
     font-size: 0.7em;
     text-align: center;
     direction: ltr;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 @import url(fontiran.css); /* لینک فایلی که وظیفه بارگذاری فونت ها را برعهده دارد */
 body {
@@ -359,8 +359,8 @@ blockquote {
     padding-left: 5px;
     float: right;
     margin-left: 10px;
-    margin-bottom: 0px;
-    min-width: 0px;
+    margin-bottom: 0;
+    min-width: 0;
     background-color: #F7F7F7;
 
 }
@@ -368,11 +368,11 @@ blockquote {
 .titelbox {
     width: 60%;
     padding-right: 25px;
-    padding-left: 0px;
+    padding-left: 0;
     float: right;
     margin-left: 10px;
-    margin-bottom: 0px;
-    min-width: 0px;
+    margin-bottom: 0;
+    min-width: 0;
     background-color: #F2F2F2;
     color: #4B4B4B;
 }
@@ -384,7 +384,7 @@ blockquote {
     padding-left: 4px;
     float: right;
     margin-bottom: 10px;
-    min-width: 0px;
+    min-width: 0;
 }
 
 .alphabet {
@@ -411,7 +411,7 @@ blockquote {
     font-size: 0.7em;
     text-align: center;
     direction: ltr;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 /* end fontiran */

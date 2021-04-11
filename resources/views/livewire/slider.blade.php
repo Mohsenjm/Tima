@@ -48,36 +48,36 @@
 
     <!-- carousel slide -->
 
-    <div class="w-full h-auto flex flex-col">
+    <div class="w-full h-auto flex flex-col bg-red-500 ">
 
         <div class="relative max-w-980 mx-auto flex flex-col lg:flex lg:flex-row">
 
             <!--  right menu -->
-            <div class="w-full my-2 lg:mr-6 flex flex-row lg:flex lg:flex-col mx-auto">
+            <div class="w-full my-2 lg:ml-8 flex flex-row lg:justify-between md:justify-center lg:flex lg:flex-col lg:mx-auto">
                 <!--    text -->
-                <div class="flex flex-col items-center text-medium mr-auto lg:mx-auto pt-4">
-                    <span>پیشنهاد</span>
-                    <span>شگفت</span>
-                    <span>انگیز</span>
+                <div class="flex flex-col items-center mr-4 text-bold text-white lg:mr-auto lg:mx-auto pt-4">
+                    <span class="mb-3">پیشنهاد</span>
+                    <span class="mb-3">شــگفـت</span>
+                    <span class="mb-3">انـگیـز</span>
                 </div>
                 <!--   image -->
 
-                <div class="flex justify-center mr-auto lg:mx-auto py-4">
+                <div class="flex justify-center mx-8 lg:mr-auto lg:mx-auto py-4">
                     <img src="{{asset('/img/icon3.png')}}" alt="img" class="w-16 h-16">
                 </div>
 
                 <!--   button -->
 
-                <div class="mr-auto lg:mx-auto ml-4  flex justify-center">
+                <div class="lg:mr-auto h-1/6 lg:h-10 lg:mx-auto ml-4 mt-8 lg:mt-0 mb-4 flex flex-row justify-center">
                     <button type="button"
-                            class="border px-4 py-1 rounded text-ultralight hover:bg-gray-500 hover:border-gray-400 ">
+                            class="border px-4 py-1 text-white rounded-lg text-ultralight hover:bg-gray-500 hover:border-gray-400 ">
                         مشاهده&nbsp;همه
                     </button>
                 </div>
             </div>
 
             <!--          carousel slider -->
-            <div class="container max-w-53 h-96 lg:mr-5">
+            <div class="container h-96 lg:mr-5">
                 <div class="swiper-container  overflow-hidden inline-flex">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
@@ -189,6 +189,9 @@
                             </div>
                         </div>
                     </div>
+
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
                     <!-- Add Arrows -->
                     <div class="swiper-button-next"></div>
                     <div class="swiper-button-prev"></div>
