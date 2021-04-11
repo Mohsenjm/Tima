@@ -10,8 +10,8 @@
 <!--
     <link href="{{asset('/css/mobile.css')}}" rel="stylesheet">
     <link href="{{asset('/css/style.css')}}" rel="stylesheet">
-
-    <link href="{{asset('/css/swiper.css')}}" rel="stylesheet">-->
+    -->
+    <link href="{{asset('/css/swiper.css')}}" rel="stylesheet">
 
 
     @livewireStyles

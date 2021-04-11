@@ -82,6 +82,7 @@
     position: relative;
     transition-property: transform;
     background-color: #ffffff;
+    border: 1px solid #b8b8b8;
     border-radius: 10px;
     flex-direction: column;
     margin-top: 1rem;

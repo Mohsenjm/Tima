@@ -50,7 +50,7 @@
 
     <div class="w-full h-auto flex flex-col">
 
-        <div class="relative max-w-980 flex flex-col lg:flex lg:flex-row container mx-auto bg-red-600">
+        <div class="relative max-w-980 mx-auto flex flex-col lg:flex lg:flex-row">
 
             <!--  right menu -->
             <div class="w-full my-2 lg:mr-6 flex flex-row lg:flex lg:flex-col mx-auto">
@@ -82,7 +82,7 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="swiper-image">
-                                <img class="swiper-img" src="{{asset('/img/01.jpg')}}">
+                                <img class="swiper-img" src="{{asset('/img/01.jpg')}}" alt="img-banner">
                             </div>
                             <div class="swiper-product-name"><span class="font-display text-bold">زرشک ارگانیک</span>
                             </div>
@@ -100,7 +100,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="swiper-image">
-                                <img class="swiper-img" src="{{asset('/img/02.jpg')}}">
+                                <img class="swiper-img" src="{{asset('/img/02.jpg')}}" alt="img-slider1">
                             </div>
                             <div class="swiper-product-name"><span class="font-display text-bold">زرشک ارگانیک</span>
                             </div>
@@ -118,7 +118,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="swiper-image">
-                                <img class="swiper-img" src="{{asset('/img/03.jpg')}}">
+                                <img class="swiper-img" src="{{asset('/img/03.jpg')}}" alt="sd">
                             </div>
                             <div class="swiper-product-name"><span class="font-display text-bold">زرشک ارگانیک</span>
                             </div>
@@ -136,7 +136,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="swiper-image">
-                                <img class="swiper-img" src="{{asset('/img/04.jpg')}}">
+                                <img class="swiper-img" src="{{asset('/img/04.jpg')}}" alt="sdf">
                             </div>
                             <div class="swiper-product-name"><span class="font-display text-bold">زرشک ارگانیک</span>
                             </div>
@@ -154,7 +154,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="swiper-image">
-                                <img class="swiper-img" src="{{asset('/img/05.jpg')}}">
+                                <img class="swiper-img" src="{{asset('/img/05.jpg')}}" alt="mnb">
                             </div>
                             <div class="swiper-product-name"><span class="font-display text-bold">زرشک ارگانیک</span>
                             </div>
@@ -172,7 +172,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="swiper-image">
-                                <img class="swiper-img" src="{{asset('/img/06.jpg')}}">
+                                <img class="swiper-img" src="{{asset('/img/06.jpg')}}" alt="zvc">
                             </div>
                             <div class="swiper-product-name"><span class="font-display text-bold">زرشک ارگانیک</span>
                             </div>

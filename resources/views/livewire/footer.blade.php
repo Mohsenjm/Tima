@@ -7,7 +7,7 @@
             {{--        right menu--}}
             <div class="lg:w-1/3">
                 <div class="flex justify-center lg:flex-col">
-                    <img class="w-28 h-32 mt-4 mb-4" src="/img/icon3.png" alt="logo">
+                    <img class="w-28 h-32 mt-4 mb-4" src="{{asset('/img/icon3.png')}}" alt="logo">
                 </div>
                     <p class="text-white ">مجموعه&nbsp;شرکت&nbsp;های&nbsp;تیما&nbsp;زعفران&nbsp;&nbsp;،&nbsp;بیونیک&nbsp;و&nbsp;رزلا&nbsp;با&nbsp;هدف </p>
                     <p class="text-white ">توليـد&nbsp;محصـولات&nbsp;ارگانیک&nbsp;و&nbsp;تامیـن&nbsp;محصـولات&nbsp;سالم</p>
@@ -52,7 +52,7 @@
         <div class="flex flex-row-reverse w-full lg:flex lg:flex-row-reverse md:flex md:flex-col md:items-center">
             {{--            Electrical trust symbol --}}
             <div class="flex flex-row-reverse lg:ml-4 lg:mr-2 ml-4">
-                <img class="w-20 h-20 bg-white mr-4 rounded " src="/img/namad1.png" alt="logo">
+                <img class="w-20 h-20 bg-white mr-4 rounded " src="{{asset('/img/namad1.png')}}" alt="logo">
             </div>
 
             {{--            social icon--}}

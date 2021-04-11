@@ -112,7 +112,7 @@
                         <!-- box title -->
                         <ul class="flex flex-col">
                             <li class="flex items-center">
-                                <img src="{{asset('/img/buy-icon.png')}}" class="w-8 h-12">
+                                <img src="{{asset('/img/buy-icon.png')}}" class="w-8 h-12" alt="buy">
                                 <span class="text-gray-600 text-regular mr-4">ضمانت محصول ارگانیک</span>
                             </li>
                             <li class="flex items-center">
@@ -124,7 +124,7 @@
                                 <span class="text-gray-600 text-regular mr-4">ضمانت بازگشت وجه و اصالت کالا</span>
                             </li>
                             <li class="flex items-center">
-                                <img src="{{asset('/img/box.png')}}" class="w-8 h-8 text-blue-400">
+                                <img src="{{asset('/img/box.png')}}" class="w-8 h-8 text-blue-400" alt="box">
                                 <span class="text-gray-600 text-regular mr-4">امکن خرید و پرداخت در محل</span>
                             </li>
 
