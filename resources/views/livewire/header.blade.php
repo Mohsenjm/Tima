@@ -24,15 +24,15 @@
                 <ul class="flex">
                     <li>
                         <a href="#"
-                           class="fa fa-instagram fa-2x py-1 px-2 text-2xl text-gray-300 rounded hover:bg-gray-600 hover:text-white"></a>
+                           class="fa fa-instagram fa-2x social"></a>
                     </li>
                     <li>
                         <a href="#"
-                           class=" fa fa-send-o fa-2x py-1 px-2  text-2xl text-gray-300 hover:bg-gray-600 rounded hover:text-white"></a>
+                           class=" fa fa-send-o fa-2x social"></a>
                     </li>
                     <li>
                         <a href="#"
-                           class=" fa fa-whatsapp fa-2x py-1 px-2  text-2xl text-gray-300 hover:bg-gray-600 rounded hover:text-white"></a>
+                           class="fa fa-whatsapp fa-2x social"></a>
                     </li>
                 </ul>
 
@@ -72,22 +72,22 @@
             <div class="flex mb-4 lg:w-max lg:inline-flex lg:mb-0 xl:mb-0">
                 <ul class="flex flex-col w-full  lg:flex lg:flex-row">
                     <li class="py-4 px-4 lg:px-0"><a href="#"
-                                                     class="px-2 py-2  hover:bg-gray-600 rounded hover:text-white">صفحه&nbsp;اصلی</a>
+                                                     class="px-2 py-2  nav-menu">صفحه&nbsp;اصلی</a>
                     </li>
-                    <li class="pr-6 py-4"><a href="#" class="px-2 py-2 hover:bg-gray-600 rounded hover:text-white">زعفران</a>
-                    </li>
-                    <li class="pr-6 py-4"><a href="#"
-                                             class="px-2 py-2 hover:bg-gray-600 rounded hover:text-white">زرشک</a>
+                    <li class="pr-6 py-4"><a href="#" class="nav-menu">زعفران</a>
                     </li>
                     <li class="pr-6 py-4"><a href="#"
-                                             class="px-2 py-2  hover:bg-gray-600 rounded hover:text-white">زرشک</a>
-                    </li>
-                    <li class="pr-6 py-4"><a href="#" class="px-2 py-2 hover:bg-gray-600 rounded hover:text-white">سایر&nbsp;محصولات</a>
+                                             class="nav-menu">زرشک</a>
                     </li>
                     <li class="pr-6 py-4"><a href="#"
-                                             class="px-2 py-2  hover:bg-gray-600 rounded hover:text-white">مجوزها&nbsp;و&nbsp;تقدیرنامه</a>
+                                             class="nav-menu">زرشک</a>
                     </li>
-                    <li class="pr-6 py-4"><a href="#" class="px-2 py-2 hover:bg-gray-600 rounded hover:text-white">درباره&nbsp;ما</a>
+                    <li class="pr-6 py-4"><a href="#" class="nav-menu">سایر&nbsp;محصولات</a>
+                    </li>
+                    <li class="pr-6 py-4"><a href="#"
+                                             class="nav-menu">مجوزها&nbsp;و&nbsp;تقدیرنامه</a>
+                    </li>
+                    <li class="pr-6 py-4"><a href="#" class="nav-menu">درباره&nbsp;ما</a>
                     </li>
                 </ul>
             </div>

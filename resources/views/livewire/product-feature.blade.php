@@ -48,8 +48,10 @@
                     <!-- end user name -->
                     <!-- comment  -->
                     <div class="w-max mr-4">
-                        <i class="fa fa-comment-o text-gray-400"></i>
+                       <a href="#">
+                           <i class="fa fa-comment-o text-gray-400"></i>
                         <span class="text-gray-400 font-normal text-light">15</span>
+                       </a>
                     </div>
                     <!-- end comment -->
 

@@ -7,4 +7,39 @@
 @import url('/public/css/style.css');
 @import url('/public/css/fontiran.css');
 
+/* header*/
+.social {
+    @apply py-1 px-2 text-2xl text-gray-300
+}
+
+.social:hover {
+    @apply rounded bg-gray-600 text-white
+}
+
+.social:focus {
+    @apply rounded bg-red-400 text-white
+}
+
+.social:active {
+    @apply rounded bg-blue-400 text-white
+}
+
+.nav-menu {
+    @apply px-2 py-2
+}
+
+.nav-menu:hover {
+    @apply bg-gray-600 rounded text-white
+}
+
+.nav-menu:focus {
+    @apply rounded bg-red-400 text-white
+}
+
+.nav-menu:active {
+    @apply rounded bg-blue-400 text-white
+}
+
+/*end header*/
+
 @tailwind utilities;
