@@ -7,6 +7,9 @@ module.exports = {
             display: ['IRANSans', 'sans-serif'],
         },
         extend: {
+            margin:{
+              '70': '0.72rem'
+            },
             width: {
                 '10':'10%',
                 '30': '30%',

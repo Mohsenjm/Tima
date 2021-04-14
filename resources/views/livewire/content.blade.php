@@ -60,7 +60,7 @@
 
                     <!-- image preview -->
                     <div
-                        class="relative lg:w-full lg:mx-0 lg:h-auto lg:mr-1 lg:box-border md:flex md:justify-center md:mx-4">
+                        class="relative sm:mx-2 lg:w-full lg:mx-0 lg:h-auto lg:mr-1 lg:box-border md:flex md:justify-center md:mx-4">
                         <img src="{{asset('/img/s5.jpg')}}" alt="product-image"
                              class="absolut box-border lg:w-full lg:h-full">
 

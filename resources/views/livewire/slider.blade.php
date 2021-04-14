@@ -32,7 +32,7 @@
 
 
         <!-- left-box -->
-        <div class="flex flex-col lf:flex lg:flex-col md:flex md:flex-row lg:mr-4 lg:w-full">
+        <div class="flex flex-col lg:flex lg:flex-col md:flex md:flex-row lg:mr-4 lg:w-full">
             <!-- top-image -->
             <div class="mb-4 h-1/2 m-auto lg:m-0 lg:mb-4">
                 <img class="img-fit lg:w-full rounded-lg" src="{{asset('/img/01.jpg')}}" alt="img">

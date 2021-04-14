@@ -102,9 +102,9 @@
                 </button>
 
                 {{--            register form--}}
-                <button type="button" class="w-44 h-10 flex bg-blue-400 ml-6 hover:bg-gray-300 lg:mb-0 mb-2 ">
+                <button type="button" class="w-44 h-10 flex bg-blue-400 ml-6 hover:bg-blue-500 lg:mb-0 mb-2 ">
                     <a href="#"
-                       class="fa fa-arrow-circle-left fa-2x w-12 pt-1 bg-blue-300 hover:bg-gray-300 hover:text-white "></a>
+                       class="fa fa-arrow-circle-left fa-2x w-12 pt-1 bg-blue-300 hover:bg-blue-500 hover:text-white "></a>
                     <span class="mt-0 mx-auto pt-2 text-white">ورود / ثبت نام</span>
                 </button>
             </div>

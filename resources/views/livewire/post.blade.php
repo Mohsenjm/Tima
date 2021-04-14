@@ -4,7 +4,7 @@
     <div
         x-data="{
             openTab:2,
-            activeClasses:'border-b-2 border-blue-500 pb-2',
+            activeClasses:'relative z-20 border-b-4 border-blue-400 pb-2',
             inactiveClasses:'hover:text-gray-500'
 
         }"
@@ -24,7 +24,8 @@
             </li>
         </ul>
         <!-- end tab list -->
-        <hr class="border-blue-400">
+
+        <hr class="border-gray-300 w-full mt-70">
         <!-- tab content -->
         <div class="w-full h-full flex">
 
@@ -76,7 +77,7 @@
                                 <!-- bottom -->
                                 <div class="w-full flex mx-auto mb-4">
                                     <button type="submit"
-                                            class="flex mx-auto justify-center py-1 w-1/5 h-auto text-center text-white rounded hover:bg-blue-400 h-8 block bg-blue-300 ">
+                                            class="flex mx-auto justify-center py-1 w-1/5 h-auto text-center text-white rounded hover:bg-blue-500 h-8 block bg-blue-400 ">
                                         ثبت دیدگاه
                                     </button>
                                 </div>
@@ -134,7 +135,7 @@
 
                             <!-- body -->
                             <div class="mt-8 mr-4">
-                                <p class="text-gray-600 text-light font-normal">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                                <p class="text-gray-600 text-light font-normal pl-2">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
                                     گرافیک است.
                                     چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است .</p>
                             </div>
