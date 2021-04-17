@@ -2,10 +2,10 @@
 
     <!-- top slide -->
 
-    <div class="container mx-auto max-w-61 flex flex-col lg:flex lg:flex-row mb-5 w-full font-display">
+    <div class="container mx-auto max-w-1200 flex flex-col lg:flex lg:flex-row mb-5 w-full font-display">
         <!-- right-box -->
         <div
-            class="bg-white inline-flex flex-col md:flex md:flex-row mb-4 lg:flex lg:flex-row lg:mb-0 rounded-md shadow-lg">
+            class="bg-white inline-flex flex-col md:flex md:flex-row mb-4 lg:flex lg:flex-row lg:w-3/5 lg:mb-0 lg:ml-4 rounded-md shadow-lg">
             <!-- right text -->
             <div class="mr-4 ml-8 my-auto  flex flex-col justify-center text-regular">
                 <h2 class="flex justify-center mb-4 mt-4 text-medium">محصولات&nbsp;ارگانیک</h2>
@@ -22,7 +22,7 @@
             <!-- end right text -->
 
             <!-- left image -->
-            <div class="bg-green-100 lg:w-64 h-80 lg:my-auto lg:mx-8 rounded-3xl m-auto">
+            <div class="bg-green-100 mx-8 lg:w-68 h-80 lg:my-auto lg:mx-8 rounded-3xl lg:mr-auto md:mr-auto">
                 <img class="w-56 h-56 mx-auto my-12" src="{{asset('/img/01.jpg')}}" alt="img">
             </div>
             <!-- end left image -->
@@ -32,15 +32,15 @@
 
 
         <!-- left-box -->
-        <div class="flex flex-col lg:flex lg:flex-col md:flex md:flex-row lg:mr-4 lg:w-full">
+        <div class="flex flex-col mx-4 lg:mx-0 lg:flex lg:flex-col md:flex md:flex-row lg:mr-auto lg:w-2/5">
             <!-- top-image -->
-            <div class="mb-4 h-1/2 m-auto lg:m-0 lg:mb-4">
-                <img class="img-fit lg:w-full rounded-lg" src="{{asset('/img/01.jpg')}}" alt="img">
+            <div class="mb-4 h-1/2 w-full lg:mr-auto md:ml-2">
+                <img class="img-fit w-full rounded-lg" src="{{asset('/img/01.jpg')}}" alt="img">
             </div>
 
             <!-- bottom-image -->
-            <div class="h-1/2 m-auto lg:m-0">
-                <img class="img-fit lg:w-full rounded-lg" src="{{asset('/img/02.jpg')}}" alt="img">
+            <div class="h-1/2 w-full lg:mr-auto">
+                <img class="img-fit w-full rounded-lg" src="{{asset('/img/02.jpg')}}" alt="img">
             </div>
         </div>
         <!-- end left-box -->
@@ -50,10 +50,11 @@
 
     <div class="w-full h-auto flex flex-col bg-red-500 ">
 
-        <div class="relative max-w-980 mx-auto flex flex-col lg:flex lg:flex-row">
+        <div class="relative max-w-1200 mx-auto flex flex-col lg:flex lg:flex-row">
 
             <!--  right menu -->
-            <div class="w-full my-2 lg:ml-8 flex flex-row lg:justify-between md:justify-center lg:flex lg:flex-col lg:mx-auto">
+            <div
+                class="w-full my-2 lg:ml-8 flex flex-row lg:justify-between md:justify-center lg:flex lg:flex-col lg:mx-auto">
                 <!--    text -->
                 <div class="flex flex-col items-center mr-4 text-bold text-white lg:mr-auto lg:mx-auto pt-4">
                     <span class="mb-3">پیشنهاد</span>
@@ -77,7 +78,7 @@
             </div>
 
             <!--          carousel slider -->
-            <div class="container h-96 lg:mr-5">
+            <div class="container lg:w-4/5 md:w-95 h-96 md:mx-auto">
                 <div class="swiper-container  overflow-hidden inline-flex">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">

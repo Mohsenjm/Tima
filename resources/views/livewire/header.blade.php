@@ -1,7 +1,7 @@
 <header class="bg-white shadow-lg md:pr-4 mb-4">
 
     {{--        top menu--}}
-    <nav  class="container max-w-67 mx-auto flex  items-center flex-wrap font-display text-regular text-gray-500
+    <nav  class="container max-w-1200 mx-auto flex  items-center flex-wrap font-display text-regular text-gray-500
                  " x-data="{isOpen:false}">
 
         {{--        logo--}}
@@ -50,13 +50,13 @@
             </div>
 
             {{--            contact us--}}
-            <div class=" mb-4 lg:mb-0 lg:ml-9">
-                <ul class="flex pt-2">
+            <div class=" mb-4 lg:mb-0">
+                <ul class="flex pt-2 ml-2">
                     <li class="px-4 ml-4 hover:bg-gray-600 rounded hover:text-white">
                         <i class="fa fa-phone text-gray-300"></i>
                         <a href="#">تماس&nbsp;با&nbsp;ما</a>
                     </li>
-                    <li class="px-4 hover:bg-gray-600 rounded hover:text-white">
+                    <li class="pr-4hover:bg-gray-600 rounded hover:text-white">
                         <i class="fa fa-align-left text-gray-300"></i>
                         <a href="#">سوالات&nbsp;متداول</a>
                     </li>
@@ -69,10 +69,10 @@
              class="bottom-navbar  w-full lg:flex lg:flex-row lg:flex-grow lg:w-auto items-center justify-between flex flex-col">
             {{--            right menu--}}
 
-            <div class="flex mb-4 lg:w-max lg:inline-flex lg:mb-0 xl:mb-0">
+            <div class="flex mb-4 lg:w-max lg:inline-flex lg:mb-0 ">
                 <ul class="flex flex-col w-full  lg:flex lg:flex-row">
                     <li class="py-4 px-4 lg:px-0"><a href="#"
-                                                     class="px-2 py-2  nav-menu">صفحه&nbsp;اصلی</a>
+                                                     class="px-2 lg:px-0 py-2  nav-menu">صفحه&nbsp;اصلی</a>
                     </li>
                     <li class="pr-6 py-4"><a href="#" class="nav-menu">زعفران</a>
                     </li>
@@ -94,15 +94,15 @@
 
             {{--            left menu--}}
 
-            <div class="flex ml-4">
+            <div class="flex ml-2">
                 {{--                       shopping cart --}}
-                <button class="ml-4">
+                <button class="ml-6">
                     <a href="#"
                        class="fa fa-shopping-cart text-gray-400 fa-2x px-2 text-2xl hover:bg-gray-600 rounded hover:text-white"></a>
                 </button>
 
                 {{--            register form--}}
-                <button type="button" class="w-44 h-10 flex bg-blue-400 ml-6 hover:bg-blue-500 lg:mb-0 mb-2 ">
+                <button type="button" class="w-44 h-10 flex bg-blue-400 hover:bg-blue-500 lg:mb-0 mb-2 ">
                     <a href="#"
                        class="fa fa-arrow-circle-left fa-2x w-12 pt-1 bg-blue-300 hover:bg-blue-500 hover:text-white "></a>
                     <span class="mt-0 mx-auto pt-2 text-white">ورود / ثبت نام</span>

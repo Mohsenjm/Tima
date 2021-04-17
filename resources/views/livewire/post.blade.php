@@ -36,7 +36,7 @@
             <!-- commit tab -->
             <div class="container mx-auto mt-4 flex flex-col font-display" x-show="openTab === 2">
                 <!-- submit form -->
-                <div class="flex flex-col container mx-auto w-5/6 bg-gray-200 rounded">
+                <div class="flex flex-col container mx-auto w-9/12 bg-gray-100 rounded">
 
                     <div class="flex justify-center">
                         <h3 class="mt-2 ml-8 text-regular text-gray-600">ثبت دیدگاه</h3>
@@ -54,7 +54,7 @@
                                     <!-- end full-name -->
 
                                     <!-- mobile/email -->
-                                    <div class="lg:mt-0 lg:ml-12 md:mt-0 mt-2 mx-1 lg:w-auto lg:flex lg:flex-row md:ml-3">
+                                    <div class="lg:mt-0 lg:ml-15 md:mt-0 mt-2 mx-1 lg:w-auto lg:flex lg:flex-row md:ml-3">
                                         <label for="mobile" class="text-regular text-gray-600 lg:ml-2 ">موبایل / ایمیل </label>
                                         <input type="text" name="mobile" class="w-full lg:w-auto border border-gray-400 h-8 rounded text-regular text-gray-600 pr-2">
                                     </div>
@@ -67,7 +67,7 @@
                                     <label for="full-name" class="lg:mr-14 md:w-max md:mr-2 text-regular text-gray-600">ثبت دیدگاه</label>
                                     <textarea cols="2"
                                               class="lg:mr-2 lg:w-78 pr-2 border border-gray-400 rounded md:w-full"></textarea>
-                                    <span class="absolute left-4 lg:left-8 lg:top-16 md:top-16 top-16 mt-3 ml-8 text-gray-500">100 / 0</span>
+                                    <span class="absolute left-4 lg:left-10 lg:top-16 md:top-16 top-16 mt-3 ml-8 text-gray-500">100 / 0</span>
                                 </div>
                                 <div class="flex justify-end">
 
@@ -77,7 +77,7 @@
                                 <!-- bottom -->
                                 <div class="w-full flex mx-auto mb-4">
                                     <button type="submit"
-                                            class="flex mx-auto justify-center py-1 w-1/5 h-auto text-center text-white rounded hover:bg-blue-500 h-8 block bg-blue-400 ">
+                                            class="flex mx-auto justify-center px-1 py-1 lg:w-1/5 md:w-1/5 h-auto text-center text-white rounded hover:bg-blue-500 h-8 block bg-blue-400 ">
                                         ثبت دیدگاه
                                     </button>
                                 </div>
@@ -94,7 +94,7 @@
                 <div class="flex flex-col mt-8">
 
                     <!--- new-comment -->
-                    <div class="container mx-auto mt-6 lg:flex lg:flex-row flex flex-col lg:w-4/5">
+                    <div class="container mx-auto mt-6 lg:flex lg:flex-row flex flex-col lg:w-70">
                         <!-- image user -->
                         <div class="md:mb-2 mb-2 lg:mb-0 lg:mr-0 mr-2">
                             <img src="{{asset('/img/01.jpg')}}" class="w-20 h-16" alt="img-user">
@@ -162,7 +162,7 @@
                     <!-- end new-comment -->
 
                     <!-- replay -->
-                    <div class="container lg:mr-auto lg:ml-24 lg:w-71 mt-6 mb-4 mr-8 lg:flex lg:flex-row flex flex-col">
+                    <div class="container mr-8 md:mr-8 lg:ml-44 lg:w-63 lg:mr-auto mt-6 mb-4 lg:flex lg:flex-row flex flex-col">
                         <!-- image user -->
                         <div class="md:mb-2 mb-2 lg:mb-0 lg:ml-4">
                             <img src="{{asset('/img/01.jpg')}}" class="w-20 h-16" alt="img-user">

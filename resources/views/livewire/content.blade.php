@@ -1,4 +1,4 @@
-<div class="container max-w-5xl mx-auto h-auto my-4 font-display">
+<div class="container max-w-1200 mx-auto h-auto my-4 font-display">
 
     <!-- Breadcrumb -->
     <div class="mb-2">
@@ -60,7 +60,7 @@
 
                     <!-- image preview -->
                     <div
-                        class="relative sm:mx-2 lg:w-full lg:mx-0 lg:h-auto lg:mr-1 lg:box-border md:flex md:justify-center md:mx-4">
+                        class="relative mx-2 lg:w-9/12 lg:mx-0 lg:h-auto lg:mr-1 lg:box-border md:flex md:justify-center md:mx-4">
                         <img src="{{asset('/img/s5.jpg')}}" alt="product-image"
                              class="absolut box-border lg:w-full lg:h-full">
 
@@ -72,11 +72,11 @@
             <!-- end right box -->
 
             <!-- left box -->
-            <div class="lg:flex md:flex lg:mt-0 md:flex-row md:justify-around flex my-4 flex-col ">
+            <div class="lg:flex md:flex lg:w-3/5 lg:h-auto lg:my-0 lg:mr-auto md:flex-row md:justify-around flex my-4 flex-col ">
 
                 <!-- Description -->
                 <div
-                    class="lg:w-max lg:h-auto lg:mr-8 lg:ml-4 lg:my-0 lg:mb-0 lg:flex lg:flex-col lg:justify-start mb-4 flex justify-center mr-8">
+                    class="lg:w-max lg:h-auto lg:mr-2 lg:ml-auto lg:my-0 lg:mb-0 lg:flex lg:flex-col lg:justify-start mb-4 flex justify-center">
                     <ul class="mx-auto">
                         <li class="w-max">
                             <span class="text-regular text-gray-600">وضعیت :</span>
@@ -107,7 +107,7 @@
                 <!-- end Description-->
 
                 <!-- send box -->
-                <div class="lg:w-max lg:ml-8 lg:flex lg:flex-col justify-center md:flex md:ml-4 flex flex-col">
+                <div class="lg:w-max lg:ml-12 lg:flex lg:flex-col lg:justify-start justify-center md:flex md:ml-4 flex flex-col">
                     <div class="flex flex-col items-center">
                         <!-- box title -->
                         <ul class="flex flex-col">
@@ -132,10 +132,10 @@
                         <!-- end box title -->
 
                         <!-- form box -->
-                        <div class="mt-6 w-max">
+                        <div class="mt-6 w-full lg:mx-0">
                             <!-- price  box -->
                             <div
-                                class="lg:flex lg:flex-row flex flex-col md:flex md:flex-row justify-between items-center">
+                                class="flex flex-col mx-4 md:mx-0 lg:flex lg:flex-row flex flex-row md:flex md:flex-row justify-between items-center">
                               <span class="text-gray-400 line-through text-regular">
                                   <span>تومان</span><span>75000</span>
                                   </span>
@@ -149,7 +149,7 @@
                             <!-- end price box -->
 
                             <!-- form quantity -->
-                            <form accept-charset="#" method="get">
+                            <form accept-charset="#" method="get" class="mx-4 md:mx-0">
                                 <div class="input-group h-8 bg-gray-300 flex justify-center rounded my-2 flex-shrink">
                                     <input type="button" value="+" class="button-plus text-lg bg-gray-300"
                                            data-field="quantity">

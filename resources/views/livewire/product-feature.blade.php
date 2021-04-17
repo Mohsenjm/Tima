@@ -1,5 +1,5 @@
 <div
-    class="container max-w-67 mx-auto lg:flex lg:flex-row lg:mt-4 flex flex-col md:flex md:flex-row font-display">
+    class="container max-w-1200 mx-auto lg:flex lg:flex-row lg:mt-4 flex flex-col md:flex md:flex-row font-display">
 
     <!-- feature box -->
     <div class="lg:w-4/5 md:w-2/3 lg:h-full md:h-auto lg:ml-4">
