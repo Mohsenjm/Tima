@@ -36,24 +36,35 @@
             <!-- right box -->
             <div class="lg:w-3/6 lg:h-auto lg:flex">
                 <!-- image box -->
-                <div class="lg:w-full lg:h-auto lg:flex">
+                <div class="lg:w-full lg:h-auto lg:flex" x-data="{image: 'image1'}">
                     <!-- image thumbnails -->
                     <div class="flex lg:w-28 lg:h-full lg:flex lg:flex-col md:justify-center box-border lg:mr-1 ">
                         <div class="lg:mt-0 my-2 mx-2">
-                            <img src="{{asset('/img/s1.jpg')}}" alt="product-image"
-                                 class="box-border h-16 w-32 p-1 rounded border">
+                            <a href="#" @click.prevent="image = 'image1'">
+                                <img src="{{asset('/img/s1.jpg')}}" alt="product-image"
+                                     class="box-border h-16 w-32 p-1 rounded border">
+                            </a>
                         </div>
                         <div class="lg:my-auto my-2 mx-2">
-                            <img src="{{asset('/img/s2.jpg')}}" alt="product-image"
-                                 class="box-border h-16 w-32 p-1 rounded border">
+                            <a href="#" @click.prevent="image = 'image2'">
+                                <img src="{{asset('/img/s2.jpg')}}" alt="product-image"
+                                     class="box-border h-16 w-32 p-1 rounded border">
+                            </a>
+
                         </div>
                         <div class="lg:my-auto my-2 mx-2">
-                            <img src="{{asset('/img/s3.jpg')}}" alt="product-image"
-                                 class="box-border h-16 w-32 p-1 rounded border">
+                            <a href="#" @click.prevent="image = 'image3'">
+                                <img src="{{asset('/img/s3.jpg')}}" alt="product-image"
+                                     class="box-border h-16 w-32 p-1 rounded border">
+                            </a>
+
                         </div>
                         <div class="lg:mb-0 my-2 mx-2">
-                            <img src="{{asset('/img/s1.jpg')}}" alt="product-image"
-                                 class="box-border h-16 w-32 p-1 rounded border">
+                            <a href="#" @click.prevent="image = 'image4'">
+                                <img src="{{asset('/img/s5.jpg')}}" alt="product-image"
+                                     class="box-border h-16 w-32 p-1 rounded border">
+                            </a>
+
                         </div>
                     </div>
                     <!-- end image thumbnails -->
@@ -61,8 +72,14 @@
                     <!-- image preview -->
                     <div
                         class="relative mx-2 lg:w-9/12 lg:mx-0 lg:h-auto lg:mr-1 lg:box-border md:flex md:justify-center md:mx-4">
+                        <img src="{{asset('/img/s1.jpg')}}" alt="product-image"
+                             class="absolut box-border lg:w-full lg:h-full" x-show="image === 'image1'">
+                        <img src="{{asset('/img/s2.jpg')}}" alt="product-image"
+                             class="absolut box-border lg:w-full lg:h-full" x-show="image === 'image2'">
+                        <img src="{{asset('/img/s3.jpg')}}" alt="product-image"
+                             class="absolut box-border lg:w-full lg:h-full" x-show="image === 'image3'">
                         <img src="{{asset('/img/s5.jpg')}}" alt="product-image"
-                             class="absolut box-border lg:w-full lg:h-full">
+                             class="absolut box-border lg:w-full lg:h-full" x-show="image === 'image4'">
 
                     </div>
                     <!-- image preview -->
@@ -72,7 +89,8 @@
             <!-- end right box -->
 
             <!-- left box -->
-            <div class="lg:flex md:flex lg:w-3/5 lg:h-auto lg:my-0 lg:mr-auto md:flex-row md:justify-around flex my-4 flex-col ">
+            <div
+                class="lg:flex md:flex lg:w-3/5 lg:h-auto lg:my-0 lg:mr-auto md:flex-row md:justify-around flex my-4 flex-col ">
 
                 <!-- Description -->
                 <div
@@ -107,7 +125,8 @@
                 <!-- end Description-->
 
                 <!-- send box -->
-                <div class="lg:w-max lg:ml-12 lg:flex lg:flex-col lg:justify-start justify-center md:flex md:ml-4 flex flex-col">
+                <div
+                    class="lg:w-max lg:ml-12 lg:flex lg:flex-col lg:justify-start justify-center md:flex md:ml-4 flex flex-col">
                     <div class="flex flex-col items-center">
                         <!-- box title -->
                         <ul class="flex flex-col">
